@@ -1,0 +1,1614 @@
+[
+  {
+    "name": "Corrin",
+    "class": "Nohr Princess",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "19*",
+      "Str": "7*",
+      "Mag": "4*",
+      "Skl": "7*",
+      "Spd": "6*",
+      "Lck": "5*",
+      "Def": "6*",
+      "Res": "2*",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Supportive": [
+        "When user is the support unit, if the lead unit has a C Support or higher, the lead unit's Hit Rate +10, damage +2 and damage received -2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_127.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "45",
+      "Str": "45",
+      "Mag": "30",
+      "Skl": "40",
+      "Spd": "45",
+      "Lck": "45",
+      "Def": "35",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "0",
+      "Skl": "0",
+      "Spd": "0",
+      "Lck": "0",
+      "Def": "0",
+      "Res": "0"
+    },
+    "baseClass": "Nohr Princess",
+    "heartSealBase": null,
+    "promotedClasses": [
+      "Nohr Noble"
+    ],
+    "heartSealPromoted": [],
+    "sprites": {
+      "Nohr Princess": "https://static.wikia.nocookie.net/fireemblem/images/1/17/FE14_Kamui_%28F%29_Dark_Princess_Map_Sprite.gif/revision/latest?cb=20151114124918",
+      "Nohr Noble": "https://static.wikia.nocookie.net/fireemblem/images/a/a5/FE14_Kamui_%28F%29_Dark_Blood_Map_Sprite.gif/revision/latest?cb=20151114124918"
+    }
+  },
+  {
+    "name": "Azura",
+    "class": "Songstress",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "16",
+      "Str": "5",
+      "Mag": "2",
+      "Skl": "8",
+      "Spd": "8",
+      "Lck": "6",
+      "Def": "4",
+      "Res": "7",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Healing Descant": [
+        "Allies within a 2 tile radius recover 10% HP at the start of the user's Turn",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_133.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "25",
+      "Str": "50",
+      "Mag": "25",
+      "Skl": "60",
+      "Spd": "60",
+      "Lck": "40",
+      "Def": "15",
+      "Res": "35"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "0",
+      "Skl": "+1",
+      "Spd": "+3",
+      "Luk": "0",
+      "Def": "-3",
+      "Res": "0"
+    },
+    "baseClass": "Songstress",
+    "heartSealBase": "Sky Knight",
+    "promotedClasses": [],
+    "heartSealPromoted": [
+      "Falcon Knight",
+      "Kinshi Knight"
+    ],
+    "sprites": {
+      "Songstress": "https://static.wikia.nocookie.net/fireemblem/images/f/f3/FE14_Azura_Singer_Map_Sprite.gif/revision/latest?cb=20151016070308",
+      "Sky Knight": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE14_Azura_Pegasus_Warrior_Map_Sprite.gif/revision/latest?cb=20151105085419",
+      "Falcon Knight": "https://static.wikia.nocookie.net/fireemblem/images/1/19/FE14_Azura_Falcon_Warrior_Map_Sprite.gif/revision/latest?cb=20151107151623",
+      "Kinshi Knight": "https://static.wikia.nocookie.net/fireemblem/images/e/ea/FE14_Azura_Golden-Kite_Warrior_Map_Sprite.gif/revision/latest?cb=20151105105309"
+    }
+  },
+  {
+    "name": "Felicia",
+    "class": "Maid",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "19",
+      "Str": "5",
+      "Mag": "9",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "12",
+      "Def": "5",
+      "Res": "9",
+      "Mov": "6"
+    },
+    "personalSkill": {
+      "Devoted Partner": [
+        "If the Avatar is the lead unit, Avatar's damage +2, damage received -2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_129.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "40",
+      "Str": "10",
+      "Mag": "35",
+      "Skl": "30",
+      "Spd": "40",
+      "Lck": "55",
+      "Def": "15",
+      "Res": "35"
+    },
+    "maxStats": {
+      "Str": "-2",
+      "Mag": "+2",
+      "Skl": "0",
+      "Spd": "+1",
+      "Luk": "0",
+      "Def": "-1",
+      "Res": "+1"
+    },
+    "baseClass": "Troubadour",
+    "heartSealBase": "Mercenary",
+    "promotedClasses": [
+      "Maid",
+      "Strategist"
+    ],
+    "heartSealPromoted": [
+      "Hero",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/0/04/FE14_Felicia_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151101040115",
+      "Maid": "https://static.wikia.nocookie.net/fireemblem/images/9/91/FE14_Felicia_Maid_Map_Sprite.gif/revision/latest?cb=20151113013228",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/d/d3/FE14_Felicia_Strategist_Map_Sprite.gif/revision/latest?cb=20151101040115",
+      "Mercenary": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE14_Felicia_Mercenary_Map_Sprite.gif/revision/latest?cb=20151101040114",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/3/3b/FE14_Felicia_Hero_Map_Sprite.gif/revision/latest?cb=20151101040114",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/5/55/FE14_Felicia_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151101040113"
+    }
+  },
+  {
+    "name": "Jakob",
+    "class": "Butler",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "21",
+      "Str": "8",
+      "Mag": "6",
+      "Skl": "12",
+      "Spd": "9",
+      "Lck": "10",
+      "Def": "7",
+      "Res": "6",
+      "Mov": "6"
+    },
+    "personalSkill": {
+      "Evasive Partner": [
+        "If the Avatar is the lead unit, Avatar's Avoid +15, damage received -3",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_130.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "50",
+      "Str": "30",
+      "Mag": "15",
+      "Skl": "40",
+      "Spd": "35",
+      "Lck": "45",
+      "Def": "25",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "+2",
+      "Mag": "-2",
+      "Skl": "+2",
+      "Spd": "0",
+      "Luk": "-1",
+      "Def": "0",
+      "Res": "-1"
+    },
+    "baseClass": "Troubadour",
+    "heartSealBase": "Cavalier",
+    "promotedClasses": [
+      "Butler",
+      "Strategist"
+    ],
+    "heartSealPromoted": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "sprites": {
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/3/38/FE14_Jakob_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151101063224",
+      "Butler": "https://static.wikia.nocookie.net/fireemblem/images/7/7d/FE14_Joker_Butler_Map_Sprite.gif/revision/latest?cb=20151101041929",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/d/d2/FE14_Jakob_Strategist_Map_Sprite.gif/revision/latest?cb=20151101063224",
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/a/a6/FE14_Jakob_Cavalier_Map_Sprite.gif/revision/latest?cb=20151101063223",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/5/5f/FE14_Jakob_Paladin_Map_Sprite.gif/revision/latest?cb=20151121105037",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/a/a5/FE14_Jakob_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151101063223"
+    }
+  },
+  {
+    "name": "Silas",
+    "class": "Cavalier",
+    "startLevel": "6",
+    "baseStats": {
+      "HP": "22",
+      "Str": "11",
+      "Mag": "0",
+      "Skl": "9",
+      "Spd": "8",
+      "Lck": "7",
+      "Def": "10",
+      "Res": "5",
+      "Mov": "7"
+    },
+    "personalSkill": {
+      "Vow of Friendship": [
+        "If the Avatar is an ally, when the Avatar is under half HP, user's damage +3 and damage received -3",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_137.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "40",
+      "Str": "45",
+      "Mag": "5",
+      "Skl": "50",
+      "Spd": "40",
+      "Lck": "40",
+      "Def": "40",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "0",
+      "Skl": "+2",
+      "Spd": "0",
+      "Luk": "-1",
+      "Def": "0",
+      "Res": "-1"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Mercenary",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Hero",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/b/b7/FE14_Silas_Cavalier_Map_Sprite.gif/revision/latest?cb=20151114050909",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/b/b7/FE14_Silas_Paladin_Map_Sprite.gif/revision/latest?cb=20151114050910",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/f/f1/FE14_Silas_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151114050909",
+      "Mercenary": "https://static.wikia.nocookie.net/fireemblem/images/4/47/FE14_Silas_Mercenary_Map_Sprite.gif/revision/latest?cb=20151114050909",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/9/95/FE14_Silas_Hero_Map_Sprite.gif/revision/latest?cb=20151114050909",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/c/cf/FE14_Silas_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20160120080954"
+    }
+  },
+  {
+    "name": "Kaze",
+    "class": "Ninja",
+    "startLevel": "3",
+    "baseStats": {
+      "HP": "19",
+      "Str": "7",
+      "Mag": "0",
+      "Skl": "9",
+      "Spd": "12",
+      "Lck": "4",
+      "Def": "5",
+      "Res": "10",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Miraculous Save": [
+        "When user is the support unit, the lead unit has a Luck% chance of surviving a fatal attack with 1 HP",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_132.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "55",
+      "Str": "40",
+      "Mag": "0",
+      "Skl": "45",
+      "Spd": "65",
+      "Lck": "20",
+      "Def": "20",
+      "Res": "35"
+    },
+    "maxStats": {
+      "Str": "-2",
+      "Mag": "0",
+      "Skl": "+2",
+      "Spd": "+3",
+      "Luk": "-2",
+      "Def": "-1",
+      "Res": "+1"
+    },
+    "baseClass": "Ninja",
+    "heartSealBase": "Samurai",
+    "promotedClasses": [
+      "Master Ninja",
+      "Mechanist"
+    ],
+    "heartSealPromoted": [
+      "Swordmaster",
+      "Master of Arms"
+    ],
+    "sprites": {
+      "Ninja": "https://static.wikia.nocookie.net/fireemblem/images/0/04/FE14_Suzukaze_Ninja_Map_Sprite.gif/revision/latest?cb=20151101110457",
+      "Master Ninja": "https://static.wikia.nocookie.net/fireemblem/images/7/74/FE14_Suzukaze_Elite_Ninja_Map_Sprite.gif/revision/latest?cb=20151101110457",
+      "Mechanist": "https://static.wikia.nocookie.net/fireemblem/images/d/d5/FE14_Suzukaze_Puppeteer_Map_Sprite.gif/revision/latest?cb=20160120082229",
+      "Samurai": "https://static.wikia.nocookie.net/fireemblem/images/6/6b/FE14_Suzukaze_Samurai_Map_Sprite.gif/revision/latest?cb=20151101110458",
+      "Swordmaster": "https://static.wikia.nocookie.net/fireemblem/images/a/a1/FE14_Suzukaze_Trueblade_Map_Sprite.gif/revision/latest?cb=20151101110458",
+      "Master of Arms": "https://static.wikia.nocookie.net/fireemblem/images/a/a1/FE14_Suzukaze_Weapon_Master_Map_Sprite.gif/revision/latest?cb=20160324041339"
+    }
+  },
+  {
+    "name": "Mozu",
+    "class": "Villager",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "16",
+      "Str": "6",
+      "Mag": "0",
+      "Skl": "5",
+      "Spd": "7",
+      "Lck": "3",
+      "Def": "4",
+      "Res": "1",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Forager": [
+        "When standing on Mountain, Woods, Waste or Field terrain, the user recovers 20% HP at the start of the Turn",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_173.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "30",
+      "Str": "40",
+      "Mag": "5",
+      "Skl": "50",
+      "Spd": "55",
+      "Lck": "45",
+      "Def": "35",
+      "Res": "30"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "0",
+      "Skl": "+1",
+      "Spd": "+1",
+      "Luk": "+1",
+      "Def": "0",
+      "Res": "-2"
+    },
+    "baseClass": "Villager",
+    "heartSealBase": "Archer",
+    "promotedClasses": [
+      "Master of Arms",
+      "Merchant"
+    ],
+    "heartSealPromoted": [
+      "Sniper",
+      "Kinshi Knight"
+    ],
+    "sprites": {
+      "Villager": "https://static.wikia.nocookie.net/fireemblem/images/d/d1/FE14_Mozume_Villager_Map_Sprite.gif/revision/latest?cb=20151113050125",
+      "Master of Arms": "https://static.wikia.nocookie.net/fireemblem/images/1/18/FE14_Mozume_Weapon_Master_Map_Sprite.gif/revision/latest?cb=20151113050125",
+      "Merchant": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE14_Mozume_Great_Merchant_Map_Sprite.gif/revision/latest?cb=20151113050125",
+      "Archer": "https://static.wikia.nocookie.net/fireemblem/images/8/85/FE14_Mozume_Bowman_Map_Sprite.gif/revision/latest?cb=20151113050124",
+      "Sniper": "https://static.wikia.nocookie.net/fireemblem/images/2/25/FE14_Mozume_Holy_Bowman_Map_Sprite.gif/revision/latest?cb=20151113050125",
+      "Kinshi Knight": "https://static.wikia.nocookie.net/fireemblem/images/0/04/FE14_Mozume_Golden-Kite_Warrior_Map_Sprite.gif/revision/latest?cb=20151113050124"
+    }
+  },
+  {
+    "name": "Shura",
+    "class": "Trickster",
+    "startLevel": "10",
+    "baseStats": {
+      "HP": "34",
+      "Str": "20",
+      "Mag": "11",
+      "Skl": "23",
+      "Spd": "27",
+      "Lck": "15",
+      "Def": "14",
+      "Res": "24",
+      "Mov": "6+1"
+    },
+    "personalSkill": {
+      "Highwayman": [
+        "When user triggers the battle, if the enemy cannot counter-attack, enemy's Strength and Speed -3 after the battle (stats recover by 1 each Turn)",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_152.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "30",
+      "Str": "25",
+      "Mag": "10",
+      "Skl": "20",
+      "Spd": "35",
+      "Lck": "30",
+      "Def": "15",
+      "Res": "35"
+    },
+    "maxStats": {
+      "Str": "-1",
+      "Mag": "0",
+      "Skl": "-1",
+      "Spd": "+3",
+      "Luk": "-1",
+      "Def": "-2",
+      "Res": "+2"
+    },
+    "baseClass": "Outlaw",
+    "heartSealBase": "Fighter",
+    "promotedClasses": [
+      "Adventurer",
+      "Bow Knight"
+    ],
+    "heartSealPromoted": [
+      "Berserker",
+      "Hero",
+      "Ninja",
+      "Master Ninja",
+      "Mechanist"
+    ],
+    "sprites": {
+      "Outlaw": "https://static.wikia.nocookie.net/fireemblem/images/c/c4/FE14_Asyura_Outlaw_Map_Sprite.gif/revision/latest?cb=20151114120757",
+      "Adventurer": "https://static.wikia.nocookie.net/fireemblem/images/f/fe/FE14_Asyura_Adventurer_Map_Sprite.gif/revision/latest?cb=20151114120755",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/1/12/FE14_Asyura_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151114120756",
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/2/27/FE14_Asyura_Fighter_Map_Sprite.gif/revision/latest?cb=20151114120756",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/c/ca/FE14_Asyura_Berserker_Map_Sprite.gif/revision/latest?cb=20151114120756",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/b/bc/FE14_Asyura_Hero_Map_Sprite.gif/revision/latest?cb=20151114120757",
+      "Ninja": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE14_Asyura_Ninja_Map_Sprite.gif/revision/latest?cb=20151114120757",
+      "Master Ninja": "https://static.wikia.nocookie.net/fireemblem/images/f/f8/FE14_Asyura_Elite_Ninja_Map_Sprite.gif/revision/latest?cb=20151114120756",
+      "Mechanist": "https://static.wikia.nocookie.net/fireemblem/images/2/22/FE14_Asyura_Puppeter_Map_Sprite.gif/revision/latest?cb=20151114120757"
+    }
+  },
+  {
+    "name": "Xander",
+    "class": "Paladin",
+    "startLevel": "3",
+    "baseStats": {
+      "HP": "40",
+      "Str": "15",
+      "Mag": "1",
+      "Skl": "14",
+      "Spd": "13",
+      "Lck": "15",
+      "Def": "14+4",
+      "Res": "7",
+      "Mov": "8"
+    },
+    "personalSkill": {
+      "Chivalry": [
+        "When enemy's HP is at maximum, damage +2 and damage received -2 during the battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_168.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "45",
+      "Str": "50",
+      "Mag": "5",
+      "Skl": "40",
+      "Spd": "35",
+      "Lck": "60",
+      "Def": "40",
+      "Res": "15"
+    },
+    "maxStats": {
+      "Str": "+2",
+      "Mag": "-1",
+      "Skl": "-1",
+      "Spd": "-1",
+      "Luk": "+2",
+      "Def": "+1",
+      "Res": "-2"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Wyvern Rider",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Wyvern Lord",
+      "Malig Knight"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/3/3a/FE14_Xander_Cavalier_Map_Sprite.gif/revision/latest?cb=20151031022929",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/d/d6/FE14_Xander_Paladin_Map_Sprite.gif/revision/latest?cb=20151031022930",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/d/d5/FE14_Xander_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151031022930",
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/2/23/FE14_Xander_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20151113013333",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/0/0f/FE14_Xander_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20151105110150",
+      "Malig Knight": "https://static.wikia.nocookie.net/fireemblem/images/d/d5/FE14_Xander_Revenant_Knight_Map_Sprite.gif/revision/latest?cb=20151105110104"
+    }
+  },
+  {
+    "name": "Camilla",
+    "class": "Malig Knight",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "25",
+      "Str": "12+2",
+      "Mag": "8",
+      "Skl": "9",
+      "Spd": "12",
+      "Lck": "7",
+      "Def": "13",
+      "Res": "8",
+      "Mov": "8"
+    },
+    "personalSkill": {
+      "Rose’s Thorn": [
+        "Adjacent allies deal 3 extra damage and receive 1 less damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_159.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "40",
+      "Str": "50",
+      "Mag": "25",
+      "Skl": "50",
+      "Spd": "55",
+      "Lck": "25",
+      "Def": "35",
+      "Res": "45"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "-1",
+      "Skl": "+1",
+      "Spd": "+1",
+      "Luk": "-2",
+      "Def": "+1",
+      "Res": "0"
+    },
+    "baseClass": "Wyvern Rider",
+    "heartSealBase": "Dark Mage",
+    "promotedClasses": [
+      "Wyvern Lord",
+      "Malig Knight"
+    ],
+    "heartSealPromoted": [
+      "Sorcerer",
+      "Dark Knight"
+    ],
+    "sprites": {
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE14_Camilla_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20151105105827",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/0/0b/FE14_Camilla_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20151105105813",
+      "Malig Knight": "https://static.wikia.nocookie.net/fireemblem/images/f/f3/FE14_Camilla_Revenant_Knight_Map_Sprite.gif/revision/latest?cb=20151105105638",
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/c/ca/FE14_Camilla_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151030171752",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE14_Camilla_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151113004715",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/b/bf/FE14_Camilla_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151030171752"
+    }
+  },
+  {
+    "name": "Leo",
+    "class": "Dark Knight (Awakening)",
+    "startLevel": "1",
+    "baseStats": {
+      "HP": "27",
+      "Str": "9",
+      "Mag": "13",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "8",
+      "Def": "11",
+      "Res": "13",
+      "Mov": "8"
+    },
+    "personalSkill": {
+      "Pragmatic": [
+        "When enemy's HP is not full, damage +3 and damage received -1 during the battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_166.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "45",
+      "Str": "25",
+      "Mag": "55",
+      "Skl": "35",
+      "Spd": "45",
+      "Lck": "45",
+      "Def": "30",
+      "Res": "45"
+    },
+    "maxStats": {
+      "Str": "-2",
+      "Mag": "+2",
+      "Skl": "0",
+      "Spd": "-2",
+      "Luk": "0",
+      "Def": "0",
+      "Res": "+2"
+    },
+    "baseClass": "Dark Mage",
+    "heartSealBase": "Troubadour",
+    "promotedClasses": [
+      "Sorcerer",
+      "Dark Knight"
+    ],
+    "heartSealPromoted": [
+      "Butler",
+      "Strategist"
+    ],
+    "sprites": {
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/d/df/FE14_Leo_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151017151230",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/f/ff/FE14_Leo_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151017151231",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/c/c3/FE14_Leo_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151018112453",
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE14_Leo_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151017151230",
+      "Butler": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE14_Leo_Butler_Map_Sprite.gif/revision/latest?cb=20151017151229",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE14_Leo_Strategist_Map_Sprite.gif/revision/latest?cb=20151017151231"
+    }
+  },
+  {
+    "name": "Elise",
+    "class": "Troubadour",
+    "startLevel": "4",
+    "baseStats": {
+      "HP": "19",
+      "Str": "2",
+      "Mag": "10",
+      "Skl": "5",
+      "Spd": "9",
+      "Lck": "13",
+      "Def": "4",
+      "Res": "11+2",
+      "Mov": "7"
+    },
+    "personalSkill": {
+      "Lily’s Poise": [
+        "Adjacent allies deal 1 extra damage and received 3 less damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_153.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "30",
+      "Str": "5",
+      "Mag": "65",
+      "Skl": "25",
+      "Spd": "55",
+      "Lck": "70",
+      "Def": "15",
+      "Res": "40"
+    },
+    "maxStats": {
+      "Str": "-1",
+      "Mag": "+3",
+      "Skl": "-2",
+      "Spd": "+1",
+      "Luk": "+1",
+      "Def": "-3",
+      "Res": "+1"
+    },
+    "baseClass": "Troubadour",
+    "heartSealBase": "Wyvern Rider",
+    "promotedClasses": [
+      "Maid",
+      "Strategist"
+    ],
+    "heartSealPromoted": [
+      "Wyvern Lord",
+      "Malig Knight"
+    ],
+    "sprites": {
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/8/89/FE14_Elise_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151031114143",
+      "Maid": "https://static.wikia.nocookie.net/fireemblem/images/6/6f/FE14_Elise_Maid_Map_Sprite.gif/revision/latest?cb=20151128160832",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/6/68/FE14_Elise_Strategist_Map_Sprite.gif/revision/latest?cb=20151128144636",
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/c/cc/FE14_Elise_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20151105105944",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/0/0b/FE14_Elise_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20151105110000",
+      "Malig Knight": "https://static.wikia.nocookie.net/fireemblem/images/a/aa/FE14_Elise_Revenant_Knight_Map_Sprite.gif/revision/latest?cb=20151105110016"
+    }
+  },
+  {
+    "name": "Laslow",
+    "class": "Mercenary",
+    "startLevel": "12",
+    "baseStats": {
+      "HP": "28",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "16",
+      "Spd": "13",
+      "Lck": "14",
+      "Def": "10",
+      "Res": "7",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Fancy Footwork": [
+        "Strength and Speed +1 to all allies within a 2 tile radius for one Turn when the “Rally” command is used",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_162.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "50",
+      "Str": "45",
+      "Mag": "0",
+      "Skl": "45",
+      "Spd": "30",
+      "Lck": "55",
+      "Def": "35",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "0",
+      "Skl": "+2",
+      "Spd": "-1",
+      "Luk": "+1",
+      "Def": "-1",
+      "Res": "-1"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Archer",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Sniper",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/b/b7/FE13_Inigo_Cavalier_Map_Sprite.gif/revision/latest?cb=20150821124742",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/4/47/FE13_Inigo_Paladin_Map_Sprite.gif/revision/latest?cb=20150821125329",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/b/b6/FE13_Inigo_Great_Knight_Map_Sprite.gif/revision/latest?cb=20150821124743",
+      "Archer": "https://static.wikia.nocookie.net/fireemblem/images/b/b4/FE13_Inigo_Archer_Map_Sprite.gif/revision/latest?cb=20150821124741",
+      "Sniper": "https://static.wikia.nocookie.net/fireemblem/images/c/ce/FE13_Inigo_Sniper_Map_Sprite.gif/revision/latest?cb=20150821125330",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/6/67/FE13_Inigo_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20150821124742"
+    }
+  },
+  {
+    "name": "Peri",
+    "class": "Cavalier",
+    "startLevel": "10",
+    "baseStats": {
+      "HP": "25",
+      "Str": "13",
+      "Mag": "0",
+      "Skl": "9",
+      "Spd": "13",
+      "Lck": "9",
+      "Def": "10",
+      "Res": "10",
+      "Mov": "7"
+    },
+    "personalSkill": {
+      "Bloodthirst": [
+        "When user triggers the battle and defeats the enemy, Strength, Magic, Skill and Speed +4 for one turn",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_163.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "30",
+      "Str": "50",
+      "Mag": "5",
+      "Skl": "30",
+      "Spd": "50",
+      "Lck": "35",
+      "Def": "25",
+      "Res": "45"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "0",
+      "Skl": "-1",
+      "Spd": "+1",
+      "Luk": "0",
+      "Def": "-2",
+      "Res": "+2"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Dark Mage",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Sorcerer",
+      "Dark Knight"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/f/f5/FE14_Pieri_Cavalier_Map_Sprite.gif/revision/latest?cb=20151114135613",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/8/8a/FE14_Pieri_Paladin_Map_Sprite.gif/revision/latest?cb=20151114135614",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/6/66/FE14_Pieri_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151114135614",
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/1/12/FE14_Pieri_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151114135613",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/a/a0/FE14_Pieri_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151114135614",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/a/ac/FE14_Pieri_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151114135613"
+    }
+  },
+  {
+    "name": "Selena",
+    "class": "Mercenary",
+    "startLevel": "10",
+    "baseStats": {
+      "HP": "24",
+      "Str": "12",
+      "Mag": "3",
+      "Skl": "12",
+      "Spd": "15",
+      "Lck": "9",
+      "Def": "11",
+      "Res": "8",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Fierce Rival": [
+        "When user is the support unit, if the lead unit triggers a critical hit, the user is guaranteed a critical hit (if their attack connects)",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_160.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "40",
+      "Str": "30",
+      "Mag": "5",
+      "Skl": "25",
+      "Spd": "45",
+      "Lck": "30",
+      "Def": "45",
+      "Res": "30"
+    },
+    "maxStats": {
+      "Str": "-1",
+      "Mag": "0",
+      "Skl": "-1",
+      "Spd": "+2",
+      "Luk": "0",
+      "Def": "+1",
+      "Res": "0"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Knight",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "General",
+      "Great Knight",
+      "Wyvern Rider",
+      "Wyvern Lord",
+      "Griffon Rider"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/8/8c/FE13_Severa_Cavalier_Map_Sprite.gif/revision/latest?cb=20150822111314",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/8/85/FE13_Severa_Paladin_Map_Sprite.gif/revision/latest?cb=20150822111423",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/c/c8/FE13_Severa_Great_Knight_Map_Sprite.gif/revision/latest?cb=20150822111316",
+      "Knight": "https://static.wikia.nocookie.net/fireemblem/images/a/a9/FE13_Severa_Knight_Map_Sprite.gif/revision/latest?cb=20150822111422",
+      "General": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE13_General.gif/revision/latest?cb=20150829043903",
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/1/1f/FE13_Severa_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20150822111505",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/4/47/FE13_Severa_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20150822111504",
+      "Griffon Rider": "https://static.wikia.nocookie.net/fireemblem/images/5/53/FE13_Severa_Griffon_Rider_Map_Sprite.gif/revision/latest?cb=20150822111421"
+    }
+  },
+  {
+    "name": "Beruka",
+    "class": "Wyvern Rider",
+    "startLevel": "9",
+    "baseStats": {
+      "HP": "23",
+      "Str": "13+2",
+      "Mag": "0",
+      "Skl": "14",
+      "Spd": "9",
+      "Lck": "10",
+      "Def": "14",
+      "Res": "7",
+      "Mov": "7"
+    },
+    "personalSkill": {
+      "Opportunist": [
+        "When user triggers the battle, if the enemy cannot counter-attack, damage +4",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_161.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "45",
+      "Str": "30",
+      "Mag": "10",
+      "Skl": "55",
+      "Spd": "30",
+      "Lck": "45",
+      "Def": "40",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "-1",
+      "Mag": "0",
+      "Skl": "+2",
+      "Spd": "-2",
+      "Luk": "0",
+      "Def": "+2",
+      "Res": "-1"
+    },
+    "baseClass": "Wyvern Rider",
+    "heartSealBase": "Fighter",
+    "promotedClasses": [
+      "Wyvern Lord",
+      "Malig Knight"
+    ],
+    "heartSealPromoted": [
+      "Berserker",
+      "Hero"
+    ],
+    "sprites": {
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/d/d4/FE14_Belka_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20151113022635",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/9/9f/FE14_Belka_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20151113022634",
+      "Malig Knight": "https://static.wikia.nocookie.net/fireemblem/images/3/34/FE14_Belka_Revenant_Knight_Map_Sprite.gif/revision/latest?cb=20151113022633",
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/a/a1/FE14_Belka_Fighter_Map_Sprite.gif/revision/latest?cb=20151113022633",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/3/32/FE14_Belka_Berserker_Map_Sprite.gif/revision/latest?cb=20151113022633",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/3/3b/FE14_Belka_Hero_Map_Sprite.gif/revision/latest?cb=20151113022633"
+    }
+  },
+  {
+    "name": "Odin",
+    "class": "Dark Mage",
+    "startLevel": "5",
+    "baseStats": {
+      "HP": "21",
+      "Str": "5",
+      "Mag": "8",
+      "Skl": "10",
+      "Spd": "7",
+      "Lck": "9",
+      "Def": "6",
+      "Res": "7",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Aching Blood": [
+        "When equipped with a forged weapon whose name is at least 12 characters, Critical rate +10",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_156.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "55",
+      "Str": "35",
+      "Mag": "30",
+      "Skl": "55",
+      "Spd": "35",
+      "Lck": "60",
+      "Def": "40",
+      "Res": "20"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "+1",
+      "Skl": "+1",
+      "Spd": "-1",
+      "Luk": "+1",
+      "Def": "0",
+      "Res": "-1"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Knight",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "General",
+      "Great Knight",
+      "Wyvern Rider",
+      "Wyvern Lord",
+      "Griffon Rider"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/e/e0/FE13_Owain_Cavalier_Map_Sprite.gif/revision/latest?cb=20150816065854",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/c/cf/FE13_Owain_Paladin_Map_Sprite.gif/revision/latest?cb=20150816070011",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/e/e6/FE13_Owain_Great_Knight_Map_Sprite.gif/revision/latest?cb=20150816065855",
+      "Knight": "https://static.wikia.nocookie.net/fireemblem/images/a/a9/FE13_Generic_Knight_Map_Sprite.gif/revision/latest?cb=20150802074341",
+      "General": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE13_General.gif/revision/latest?cb=20150829043903",
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/c/ce/FE13_Owain_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20150816070028",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/d/da/FE13_Owain_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20150816070027",
+      "Griffon Rider": "https://static.wikia.nocookie.net/fireemblem/images/d/de/FE13_Owain_Griffon_Rider_Map_Sprite.gif/revision/latest?cb=20150816065855"
+    }
+  },
+  {
+    "name": "Niles",
+    "class": "Thief",
+    "startLevel": "8",
+    "baseStats": {
+      "HP": "22",
+      "Str": "9",
+      "Mag": "5",
+      "Skl": "9",
+      "Spd": "15",
+      "Lck": "6",
+      "Def": "7",
+      "Res": "12",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Kidnap": [
+        "When there is a Prison in My Castle, the user can select the “Capture” command. If a generic enemy is defeated, they will be sent to the Prison",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_157.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "40",
+      "Str": "35",
+      "Mag": "20",
+      "Skl": "40",
+      "Spd": "50",
+      "Lck": "30",
+      "Def": "30",
+      "Res": "40"
+    },
+    "maxStats": {
+      "Str": "-2",
+      "Mag": "0",
+      "Skl": "-1",
+      "Spd": "+3",
+      "Luk": "0",
+      "Def": "0",
+      "Res": "+1"
+    },
+    "baseClass": "Outlaw",
+    "heartSealBase": "Dark Mage",
+    "promotedClasses": [
+      "Adventurer",
+      "Bow Knight"
+    ],
+    "heartSealPromoted": [
+      "Sorcerer",
+      "Dark Knight"
+    ],
+    "sprites": {
+      "Outlaw": "https://static.wikia.nocookie.net/fireemblem/images/1/14/FE14_Zero_Outlaw_Map_Sprite.gif/revision/latest?cb=20151113023417",
+      "Adventurer": "https://static.wikia.nocookie.net/fireemblem/images/7/77/FE14_Zero_Adventurer_Map_Sprite.gif/revision/latest?cb=20161106150524",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/8/8f/FE14_Zero_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151113023416",
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/1/1e/FE14_Zero_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151113023416",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/c/ce/FE14_Zero_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151113023417",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/2/28/FE14_Zero_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151113023416"
+    }
+  },
+  {
+    "name": "Effie",
+    "class": "Knight",
+    "startLevel": "6",
+    "baseStats": {
+      "HP": "23",
+      "Str": "13",
+      "Mag": "0",
+      "Skl": "8",
+      "Spd": "5",
+      "Lck": "10",
+      "Def": "12+2",
+      "Res": "4",
+      "Mov": "4"
+    },
+    "personalSkill": {
+      "Puissance": [
+        "When user's Strength is 5 or more points higher than the enemy's Strength, damage +3 during battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_155.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "35",
+      "Str": "60",
+      "Mag": "0",
+      "Skl": "35",
+      "Spd": "50",
+      "Lck": "50",
+      "Def": "35",
+      "Res": "30"
+    },
+    "maxStats": {
+      "Str": "+3",
+      "Mag": "0",
+      "Skl": "-1",
+      "Spd": "+1",
+      "Luk": "0",
+      "Def": "-1",
+      "Res": "-1"
+    },
+    "baseClass": "Knight",
+    "heartSealBase": "Troubadour",
+    "promotedClasses": [
+      "General",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Maid",
+      "Strategist"
+    ],
+    "sprites": {
+      "Knight": "https://static.wikia.nocookie.net/fireemblem/images/2/28/FE14_Effie_Knight_Map_Sprite.gif/revision/latest?cb=20151113020419",
+      "General": "https://static.wikia.nocookie.net/fireemblem/images/b/ba/FE14_Effie_General_Map_Sprite.gif/revision/latest?cb=20151113020419",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/3/3a/FE14_Effie_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151113020419",
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/1/11/FE14_Effie_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151113020420",
+      "Maid": "https://static.wikia.nocookie.net/fireemblem/images/1/1f/FE14_Effie_Maid_Map_Sprite.gif/revision/latest?cb=20151113020420",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/7/7d/FE14_Effie_Strategist_Map_Sprite.gif/revision/latest?cb=20151113020420"
+    }
+  },
+  {
+    "name": "Arthur",
+    "class": "Fighter",
+    "startLevel": "7",
+    "baseStats": {
+      "HP": "24+5",
+      "Str": "12",
+      "Mag": "0",
+      "Skl": "9",
+      "Spd": "8",
+      "Lck": "1",
+      "Def": "9",
+      "Res": "4",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Misfortunate": [
+        "Enemies within a 2 tile radius have their Critical Evade reduced by 15, while the user's Critical Evade is reduced by 5",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_154.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "50",
+      "Str": "45",
+      "Mag": "0",
+      "Skl": "55",
+      "Spd": "35",
+      "Lck": "5",
+      "Def": "45",
+      "Res": "20"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "0",
+      "Skl": "+3",
+      "Spd": "0",
+      "Luk": "-3",
+      "Def": "+1",
+      "Res": "-1"
+    },
+    "baseClass": "Fighter",
+    "heartSealBase": "Cavalier",
+    "promotedClasses": [
+      "Berserker",
+      "Hero"
+    ],
+    "heartSealPromoted": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "sprites": {
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/c/c0/FE14_Arthur_Fighter_Map_Sprite.gif/revision/latest?cb=20151113022028",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/c/cb/FE14_Arthur_Berserker_Map_Sprite.gif/revision/latest?cb=20151113022027",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/2/22/FE14_Arthur_Hero_Map_Sprite.gif/revision/latest?cb=20151113022029",
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/c/c9/FE14_Arthur_Cavalier_Map_Sprite.gif/revision/latest?cb=20151113022028",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/7/7d/FE14_Arthur_Paladin_Map_Sprite.gif/revision/latest?cb=20151113022029",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/2/2e/FE14_Arthur_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151113022028"
+    }
+  },
+  {
+    "name": "Nyx",
+    "class": "Dark Mage",
+    "startLevel": "9",
+    "baseStats": {
+      "HP": "20",
+      "Str": "1",
+      "Mag": "12",
+      "Skl": "5",
+      "Spd": "11",
+      "Lck": "3",
+      "Def": "4",
+      "Res": "8",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Countercurse": [
+        "When enemy triggers the battle and inflicts magical damage, the enemy receives half the same damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_158.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "30",
+      "Str": "5",
+      "Mag": "50",
+      "Skl": "35",
+      "Spd": "50",
+      "Lck": "20",
+      "Def": "15",
+      "Res": "30"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "+3",
+      "Skl": "-2",
+      "Spd": "+2",
+      "Luk": "-1",
+      "Def": "-2",
+      "Res": "+1"
+    },
+    "baseClass": "Dark Mage",
+    "heartSealBase": "Outlaw",
+    "promotedClasses": [
+      "Sorcerer",
+      "Dark Knight"
+    ],
+    "heartSealPromoted": [
+      "Adventurer",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/9/9c/FE14_Nyx_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151129023347",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/c/c3/FE14_Nyx_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151113004629",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/d/d2/FE14_Nyx_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151031163326",
+      "Outlaw": "https://static.wikia.nocookie.net/fireemblem/images/3/3f/FE14_Nyx_Outlaw_Map_Sprite.gif/revision/latest?cb=20151129023359",
+      "Adventurer": "https://static.wikia.nocookie.net/fireemblem/images/4/4a/FE14_Nyx_Adventurer_Map_Sprite.gif/revision/latest?cb=20151129023410",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/7/7d/FE14_Nyx_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151101021606"
+    }
+  },
+  {
+    "name": "Charlotte",
+    "class": "Fighter",
+    "startLevel": "10",
+    "baseStats": {
+      "HP": "28+5",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "10",
+      "Spd": "13",
+      "Lck": "9",
+      "Def": "8",
+      "Res": "2",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Unmask": [
+        "When engaging a female enemy, Damage +4 and Critical rate +20",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_165.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "65",
+      "Str": "55",
+      "Mag": "0",
+      "Skl": "35",
+      "Spd": "50",
+      "Lck": "45",
+      "Def": "20",
+      "Res": "5"
+    },
+    "maxStats": {
+      "Str": "+3",
+      "Mag": "0",
+      "Skl": "0",
+      "Spd": "+2",
+      "Luk": "0",
+      "Def": "-2",
+      "Res": "-2"
+    },
+    "baseClass": "Fighter",
+    "heartSealBase": "Troubadour",
+    "promotedClasses": [
+      "Berserker",
+      "Hero"
+    ],
+    "heartSealPromoted": [
+      "Strategist",
+      "Maid"
+    ],
+    "sprites": {
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/6/62/FE14_Charlotte_Fighter_Map_Sprite.gif/revision/latest?cb=20151113020046",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/5/57/FE14_Charlotte_Berserker_Map_Sprite.gif/revision/latest?cb=20151113020045",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/a/a6/FE14_Charlotte_Hero_Map_Sprite.gif/revision/latest?cb=20151113020046",
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/f/f9/FE14_Charlotte_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151113020047",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/e/e5/FE14_Charlotte_Strategist_Map_Sprite.gif/revision/latest?cb=20151113020047",
+      "Maid": "https://static.wikia.nocookie.net/fireemblem/images/b/b6/FE14_Charlotte_Maid_Map_Sprite.gif/revision/latest?cb=20151113020046"
+    }
+  },
+  {
+    "name": "Benny",
+    "class": "Knight",
+    "startLevel": "15",
+    "baseStats": {
+      "HP": "31",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "6",
+      "Lck": "12",
+      "Def": "19+2",
+      "Res": "10",
+      "Mov": "4"
+    },
+    "personalSkill": {
+      "Fierce Mien": [
+        "Enemies within a 2 tile radius have their Avoid reduced by 10",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_164.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "50",
+      "Str": "40",
+      "Mag": "0",
+      "Skl": "50",
+      "Spd": "10",
+      "Lck": "35",
+      "Def": "55",
+      "Res": "45"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "0",
+      "Skl": "0",
+      "Spd": "-3",
+      "Luk": "0",
+      "Def": "+3",
+      "Res": "+1"
+    },
+    "baseClass": "Knight",
+    "heartSealBase": "Fighter",
+    "promotedClasses": [
+      "General",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Berserker",
+      "Hero"
+    ],
+    "sprites": {
+      "Knight": "https://static.wikia.nocookie.net/fireemblem/images/1/1a/FE14_Benoit_Knight_Map_Sprite.gif/revision/latest?cb=20151113020630",
+      "General": "https://static.wikia.nocookie.net/fireemblem/images/9/9d/FE14_Benoit_General_Map_Sprite.gif/revision/latest?cb=20151113020629",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/7/76/FE14_Benoit_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151113020629",
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/c/c2/FE14_Benoit_Fighter_Map_Sprite.gif/revision/latest?cb=20151113020629",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/e/eb/FE14_Benoit_Berserker_Map_Sprite.gif/revision/latest?cb=20151113020629",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/e/e1/FE14_Benoit_Hero_Map_Sprite.gif/revision/latest?cb=20151113020630"
+    }
+  },
+  {
+    "name": "Keaton",
+    "class": "Wolfskin",
+    "startLevel": "15",
+    "baseStats": {
+      "HP": "35",
+      "Str": "19",
+      "Mag": "0",
+      "Skl": "10",
+      "Spd": "14",
+      "Lck": "9",
+      "Def": "16",
+      "Res": "7",
+      "Mov": "5"
+    },
+    "personalSkill": {
+      "Collector": [
+        "Luck% chance of obtaining 3 Minerals or Foodstuffs after moving up to the 7th Turn",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_167.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "60",
+      "Str": "60",
+      "Mag": "0",
+      "Skl": "20",
+      "Spd": "35",
+      "Lck": "30",
+      "Def": "50",
+      "Res": "25"
+    },
+    "maxStats": {
+      "Str": "+3",
+      "Mag": "0",
+      "Skl": "-2",
+      "Spd": "-1",
+      "Luk": "0",
+      "Def": "+2",
+      "Res": "-1"
+    },
+    "baseClass": "Wolfskin",
+    "heartSealBase": "Fighter",
+    "promotedClasses": [
+      "Wolfssegner"
+    ],
+    "heartSealPromoted": [
+      "Berserker",
+      "Hero"
+    ],
+    "sprites": {
+      "Wolfskin": "https://static.wikia.nocookie.net/fireemblem/images/e/e0/FE14_Flannel_Garou_Map_Sprite.gif/revision/latest?cb=20151108034210",
+      "Wolfssegner": "https://static.wikia.nocookie.net/fireemblem/images/9/93/FE14_Flannel_M%C3%A1nagarm_Map_Sprite.gif/revision/latest?cb=20151108034250",
+      "Fighter": "https://static.wikia.nocookie.net/fireemblem/images/5/5b/FE14_Flannel_Fighter_Map_Sprite.gif/revision/latest?cb=20151108034249",
+      "Berserker": "https://static.wikia.nocookie.net/fireemblem/images/0/00/FE14_Flannel_Berserker_Map_Sprite.gif/revision/latest?cb=20151108034248",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/c/cc/FE14_Flannel_Hero_Map_Sprite.gif/revision/latest?cb=20151108034249"
+    }
+  },
+  {
+    "name": "Gunter",
+    "class": "Great Knight",
+    "startLevel": "3",
+    "baseStats": {
+      "HP": "24",
+      "Str": "10",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "8",
+      "Lck": "9",
+      "Def": "10",
+      "Res": "4",
+      "Mov": "7"
+    },
+    "personalSkill": {
+      "Forceful Partner": [
+        "If the Avatar is the lead unit, Avatar's Hit rate +15, damage +3",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_128.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "15",
+      "Str": "5",
+      "Mag": "0",
+      "Skl": "5",
+      "Spd": "0",
+      "Lck": "15",
+      "Def": "5",
+      "Res": "5"
+    },
+    "maxStats": {
+      "Str": "+2",
+      "Mag": "0",
+      "Skl": "+1",
+      "Spd": "-2",
+      "Luk": "0",
+      "Def": "+2",
+      "Res": "-2"
+    },
+    "baseClass": "Cavalier",
+    "heartSealBase": "Wyvern Rider",
+    "promotedClasses": [
+      "Paladin",
+      "Great Knight"
+    ],
+    "heartSealPromoted": [
+      "Wyvern Lord",
+      "Malig Knight",
+      "Mercenary",
+      "Hero",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Cavalier": "https://static.wikia.nocookie.net/fireemblem/images/3/3c/FE14_Gunter_Cavalier_Map_Sprite.gif/revision/latest?cb=20151113024411",
+      "Paladin": "https://static.wikia.nocookie.net/fireemblem/images/b/b0/FE14_Gunter_Paladin_Map_Sprite.gif/revision/latest?cb=20151113024412",
+      "Great Knight": "https://static.wikia.nocookie.net/fireemblem/images/c/c3/FE14_Gunter_Great_Knight_Map_Sprite.gif/revision/latest?cb=20151113024411",
+      "Wyvern Rider": "https://static.wikia.nocookie.net/fireemblem/images/0/0e/FE14_Gunter_Wyvern_Rider_Map_Sprite.gif/revision/latest?cb=20151113024413",
+      "Wyvern Lord": "https://static.wikia.nocookie.net/fireemblem/images/2/2f/FE14_Gunter_Wyvern_Lord_Map_Sprite.gif/revision/latest?cb=20151113024412",
+      "Malig Knight": "https://static.wikia.nocookie.net/fireemblem/images/5/51/FE14_Gunter_Revenant_Knight_Map_Sprite.gif/revision/latest?cb=20151113024412",
+      "Mercenary": "https://static.wikia.nocookie.net/fireemblem/images/e/ef/FE14_Gunter_Mercenary_Map_Sprite.gif/revision/latest?cb=20151113024412",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/7/78/FE14_Gunter_Hero_Map_Sprite.gif/revision/latest?cb=20151113024411",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/2/26/FE14_Gunter_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151113024410"
+    }
+  },
+  {
+    "name": "Flora",
+    "class": "Maid",
+    "startLevel": "5",
+    "baseStats": {
+      "HP": "29",
+      "Str": "18",
+      "Mag": "16",
+      "Skl": "25",
+      "Spd": "15",
+      "Lck": "11",
+      "Def": "14",
+      "Res": "23",
+      "Mov": "6"
+    },
+    "personalSkill": {
+      "Icy Blood": [
+        "When user's HP is not full and they sustain damage, the enemy receives the same damage and the enemy's Skill and Speed is reduced by 3",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_172.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "35",
+      "Str": "40",
+      "Mag": "20",
+      "Skl": "45",
+      "Spd": "30",
+      "Lck": "35",
+      "Def": "30",
+      "Res": "30"
+    },
+    "maxStats": {
+      "Str": "+1",
+      "Mag": "-1",
+      "Skl": "+2",
+      "Spd": "0",
+      "Luk": "-1",
+      "Def": "+1",
+      "Res": "-1"
+    },
+    "baseClass": "Troubadour",
+    "heartSealBase": "Dark Mage",
+    "promotedClasses": [
+      "Maid",
+      "Strategist"
+    ],
+    "heartSealPromoted": [
+      "Sorcerer",
+      "Dark Knight",
+      "Mercenary",
+      "Hero",
+      "Bow Knight"
+    ],
+    "sprites": {
+      "Troubadour": "https://static.wikia.nocookie.net/fireemblem/images/c/c9/FE14_Flora_Rod_Knight_Map_Sprite.gif/revision/latest?cb=20151113023759",
+      "Maid": "https://static.wikia.nocookie.net/fireemblem/images/7/7b/FE14_Flora_Maid_Map_Sprite.gif/revision/latest?cb=20151113023759",
+      "Strategist": "https://static.wikia.nocookie.net/fireemblem/images/7/7c/FE14_Flora_Strategist_Map_Sprite.gif/revision/latest?cb=20151113023800",
+      "Dark Mage": "https://static.wikia.nocookie.net/fireemblem/images/e/e6/FE14_Flora_Dark_Mage_Map_Sprite.gif/revision/latest?cb=20151113023758",
+      "Sorcerer": "https://static.wikia.nocookie.net/fireemblem/images/1/11/FE14_Flora_Sorcerer_Map_Sprite.gif/revision/latest?cb=20151113023800",
+      "Dark Knight": "https://static.wikia.nocookie.net/fireemblem/images/7/74/FE14_Flora_Dark_Knight_Map_Sprite.gif/revision/latest?cb=20151113023758",
+      "Mercenary": "https://static.wikia.nocookie.net/fireemblem/images/6/61/FE14_Flora_Mercenary_Map_Sprite.gif/revision/latest?cb=20151113023759",
+      "Hero": "https://static.wikia.nocookie.net/fireemblem/images/e/ec/FE14_Flora_Hero_Map_Sprite.gif/revision/latest?cb=20151113023759",
+      "Bow Knight": "https://static.wikia.nocookie.net/fireemblem/images/c/cd/FE14_Flora_Bow_Knight_Map_Sprite.gif/revision/latest?cb=20151113023758"
+    }
+  },
+  {
+    "name": "Izana",
+    "class": "Sage",
+    "startLevel": "5",
+    "baseStats": {
+      "HP": "31",
+      "Str": "8",
+      "Mag": "23",
+      "Skl": "25",
+      "Spd": "18",
+      "Lck": "17",
+      "Def": "14",
+      "Res": "24",
+      "Mov": "6"
+    },
+    "personalSkill": {
+      "Peacebringer": [
+        "Allies and enemies within a 2 tile radius deal 2 less damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_169.png"
+      ]
+    },
+    "growthRates": {
+      "HP": "45",
+      "Str": "15",
+      "Mag": "35",
+      "Skl": "55",
+      "Spd": "30",
+      "Lck": "45",
+      "Def": "35",
+      "Res": "35"
+    },
+    "maxStats": {
+      "Str": "0",
+      "Mag": "+1",
+      "Skl": "+1",
+      "Spd": "-2",
+      "Luk": "0",
+      "Def": "0",
+      "Res": "+1"
+    },
+    "baseClass": "Monk",
+    "heartSealBase": "Samurai",
+    "promotedClasses": [
+      "Onmyoji",
+      "Great Master"
+    ],
+    "heartSealPromoted": [
+      "Swordmaster",
+      "Master of Arms",
+      "Apothecary",
+      "Merchant",
+      "Mechanist"
+    ],
+    "sprites": {
+      "Monk": "https://static.wikia.nocookie.net/fireemblem/images/1/16/FE14_Izana_Priest_Map_Sprite.gif/revision/latest?cb=20151113115737",
+      "Onmyoji": "https://static.wikia.nocookie.net/fireemblem/images/c/c0/FE14_Izana_Onmyoji_Map_Sprite.gif/revision/latest?cb=20151113115737",
+      "Great Master": "https://static.wikia.nocookie.net/fireemblem/images/2/28/FE14_Izana_Mountain_Priest_Map_Sprite.gif/revision/latest?cb=20151128111632",
+      "Samurai": "https://static.wikia.nocookie.net/fireemblem/images/9/9b/FE14_Izana_Samurai_Map_Sprite.gif/revision/latest?cb=20151113115738",
+      "Swordmaster": "https://static.wikia.nocookie.net/fireemblem/images/b/b1/FE14_Izana_Trueblade_Map_Sprite.gif/revision/latest?cb=20151113115738",
+      "Master of Arms": "https://static.wikia.nocookie.net/fireemblem/images/2/21/FE14_Izana_Weapon_Master_Map_Sprite.gif/revision/latest?cb=20160324040913",
+      "Apothecary": "https://static.wikia.nocookie.net/fireemblem/images/6/6a/FE14_Izana_Herb_Merchant_Map_Sprite.gif/revision/latest?cb=20160323011111",
+      "Merchant": "https://static.wikia.nocookie.net/fireemblem/images/5/5b/FE14_Izana_Great_Merchant_Map_Sprite.gif/revision/latest?cb=20151113115736",
+      "Mechanist": "https://static.wikia.nocookie.net/fireemblem/images/0/01/FE14_Izana_Puppeteer_Map_Sprite.gif/revision/latest?cb=20151113115737"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# Secrets
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Misc
+*.env.local
+npm-debug.log*

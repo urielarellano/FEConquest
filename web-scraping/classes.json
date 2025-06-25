@@ -1,0 +1,998 @@
+[
+  {
+    "class": "Nohr Prince(ss)",
+    "weapons": {
+      "Sword": "B",
+      "Dragonstone": "B"
+    },
+    "skills": {
+      "Nobility": [
+        "1",
+        "Experience gained x 1.2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_106.png"
+      ],
+      "Dragon Fang": [
+        "10",
+        "Skill x.0.75% chance of adding 50% of the user's Attack Power as damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_28.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "15",
+      "Str": "15",
+      "Mag": "10",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "10",
+      "Def": "10",
+      "Res": "5"
+    },
+    "classMaxStats": {
+      "HP": "40",
+      "Str": "23",
+      "Mag": "17",
+      "Skl": "19",
+      "Spd": "21",
+      "Lck": "22",
+      "Def": "21",
+      "Res": "19",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Nohr Noble",
+    "weapons": {
+      "Sword": "A",
+      "Tome": "B",
+      "Dragonstone": "A"
+    },
+    "skills": {
+      "Draconic Hex": [
+        "5",
+        "After battle, enemy's stats -4 *1",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_10.png"
+      ],
+      "Nohrian Trust": [
+        "15",
+        "User shares their support unit's battle skills *2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_42.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "15",
+      "Str": "10",
+      "Mag": "15",
+      "Skl": "5",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "5",
+      "Res": "15"
+    },
+    "classMaxStats": {
+      "HP": "60",
+      "Str": "32",
+      "Mag": "31",
+      "Skl": "28",
+      "Spd": "32",
+      "Lck": "27",
+      "Def": "29",
+      "Res": "32",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Cavalier",
+    "weapons": {
+      "Sword": "B",
+      "Lance": "B"
+    },
+    "skills": {
+      "Elbow Room": [
+        "1",
+        "When user fights in terrain with no terrain effects, damage +3 during battles",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_51.png"
+      ],
+      "Shelter": [
+        "10",
+        "Select the “Shelter” command to make an adjacent ally the user's support unit",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_44.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "15",
+      "Def": "10",
+      "Res": "5"
+    },
+    "classMaxStats": {
+      "HP": "40",
+      "Str": "22",
+      "Mag": "15",
+      "Skl": "21",
+      "Spd": "20",
+      "Lck": "24",
+      "Def": "22",
+      "Res": "21",
+      "Mov": "7"
+    }
+  },
+  {
+    "class": "Paladin",
+    "weapons": {
+      "Sword": "A",
+      "Lance": "A"
+    },
+    "skills": {
+      "Defender": [
+        "5",
+        "When user is the lead unit while paired up, all stats +1",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_71.png"
+      ],
+      "Aegis": [
+        "15",
+        "Skill% chance of halving damage from Bow, Magic, Dagger, Dragonstone, Breath or Stone attacks",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_34.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "15",
+      "Def": "10",
+      "Res": "10"
+    },
+    "classMaxStats": {
+      "HP": "60",
+      "Str": "31",
+      "Mag": "26",
+      "Skl": "30",
+      "Spd": "30",
+      "Lck": "32",
+      "Def": "32",
+      "Res": "32",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Great Knight",
+    "weapons": {
+      "Sword": "B",
+      "Lance": "A",
+      "Axe": "B"
+    },
+    "skills": {
+      "Luna": [
+        "5",
+        "Skill% chance of ignoring half the enemy's Defence (if user has a physical weapon) or Resistance (if user has a magical weapon)",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_30.png"
+      ],
+      "Armored Blow": [
+        "15",
+        "When user triggers the battle, physical damage received -10",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_61.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "10",
+      "Spd": "5",
+      "Lck": "5",
+      "Def": "20",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "65",
+      "Str": "35",
+      "Mag": "25",
+      "Skl": "29",
+      "Spd": "27",
+      "Lck": "28",
+      "Def": "37",
+      "Res": "28",
+      "Mov": "7"
+    }
+  },
+  {
+    "class": "Knight",
+    "weapons": {
+      "Lance": "A"
+    },
+    "skills": {
+      "Defence +2": [
+        "1",
+        "Defence +2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_07.png"
+      ],
+      "Natural Cover": [
+        "10",
+        "When user fights in terrain with terrain effects, damage received -3 during battles",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_52.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "5",
+      "Lck": "10",
+      "Def": "20",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "45",
+      "Str": "24",
+      "Mag": "15",
+      "Skl": "22",
+      "Spd": "17",
+      "Lck": "22",
+      "Def": "26",
+      "Res": "18",
+      "Mov": "4"
+    }
+  },
+  {
+    "class": "General",
+    "weapons": {
+      "Lance": "A",
+      "Axe": "B"
+    },
+    "skills": {
+      "Wary Fighter": [
+        "5",
+        "During battles, neither the user or enemy can perform follow up attacks",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_64.png"
+      ],
+      "Pavise": [
+        "15",
+        "Skill% chance of halving damage from Sword, Lance, Axe, Beaststone, Claw or Puppet attacks",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_33.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "25",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "0",
+      "Lck": "10",
+      "Def": "20",
+      "Res": "5"
+    },
+    "classMaxStats": {
+      "HP": "70",
+      "Str": "38",
+      "Mag": "25",
+      "Skl": "32",
+      "Spd": "25",
+      "Lck": "32",
+      "Def": "40",
+      "Res": "30",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Fighter",
+    "weapons": {
+      "Axe": "B"
+    },
+    "skills": {
+      "HP +5": [
+        "1",
+        "Maximum HP +5",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_01.png"
+      ],
+      "Gamble": [
+        "10",
+        "Hit rate -10, Critical rate +10",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_85.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "5",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "45",
+      "Str": "25",
+      "Mag": "15",
+      "Skl": "23",
+      "Spd": "22",
+      "Lck": "21",
+      "Def": "19",
+      "Res": "18",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Berserker",
+    "weapons": {
+      "Axe": "S"
+    },
+    "skills": {
+      "Rally Strength": [
+        "5",
+        "Strength +4 to all allies within a 2 tile radius for one Turn when the “Rally” command is used",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_16.png"
+      ],
+      "Axefaire": [
+        "15",
+        "When user is equipped with an Axe, damage +5 during battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_67.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "30",
+      "Str": "25",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "15",
+      "Lck": "0",
+      "Def": "0",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "70",
+      "Str": "40",
+      "Mag": "25",
+      "Skl": "32",
+      "Spd": "33",
+      "Lck": "25",
+      "Def": "27",
+      "Res": "25",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Mercenary",
+    "weapons": {
+      "Sword": "B"
+    },
+    "skills": {
+      "Good Fortune": [
+        "1",
+        "Luck% chance of recovering 20% HP at the start of the user's Turn",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_91.png"
+      ],
+      "Strong Riposte": [
+        "10",
+        "When enemy triggers the battle, damage +3",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_50.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "20",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "10",
+      "Res": "5"
+    },
+    "classMaxStats": {
+      "HP": "40",
+      "Str": "22",
+      "Mag": "15",
+      "Skl": "24",
+      "Spd": "22",
+      "Lck": "20",
+      "Def": "21",
+      "Res": "19",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Hero",
+    "weapons": {
+      "Sword": "A",
+      "Axe": "B"
+    },
+    "skills": {
+      "Sol": [
+        "5",
+        "Skill% chance of restoring half the damage dealt to the enemy",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_29.png"
+      ],
+      "Axebreaker": [
+        "15",
+        "Hit rate and Avoid +50 when the enemy is equipped with an Axe",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_81.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "20",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "10",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "60",
+      "Str": "32",
+      "Mag": "25",
+      "Skl": "35",
+      "Spd": "32",
+      "Lck": "31",
+      "Def": "30",
+      "Res": "27",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Bow Knight",
+    "weapons": {
+      "Sword": "B",
+      "Bow": "A"
+    },
+    "skills": {
+      "Rally Skill": [
+        "5",
+        "Skill +4 to all allies within a 2 tile radius for one Turn when the “Rally” command is used",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_18.png"
+      ],
+      "Shurikenbreaker": [
+        "15",
+        "Hit rate and Avoid +50 when the enemy is equipped with a Dagger",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_82.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "10",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "15",
+      "Lck": "10",
+      "Def": "0",
+      "Res": "10"
+    },
+    "classMaxStats": {
+      "HP": "55",
+      "Str": "29",
+      "Mag": "25",
+      "Skl": "32",
+      "Spd": "33",
+      "Lck": "30",
+      "Def": "27",
+      "Res": "32",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Outlaw",
+    "weapons": {
+      "Bow": "B"
+    },
+    "skills": {
+      "Locktouch": [
+        "1",
+        "User can open doors and chests without requiring keys",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_112.png"
+      ],
+      "Movement +1": [
+        "10",
+        "Movement +1",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_09.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "10",
+      "Mag": "5",
+      "Skl": "10",
+      "Spd": "20",
+      "Lck": "0",
+      "Def": "0",
+      "Res": "20"
+    },
+    "classMaxStats": {
+      "HP": "35",
+      "Str": "19",
+      "Mag": "18",
+      "Skl": "20",
+      "Spd": "24",
+      "Lck": "18",
+      "Def": "17",
+      "Res": "22",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Adventurer",
+    "weapons": {
+      "Bow": "A",
+      "Staff": "B"
+    },
+    "skills": {
+      "Lucky Seven": [
+        "5",
+        "Hit rate and Avoid +20 for the first seven Turns",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_87.png"
+      ],
+      "Pass": [
+        "15",
+        "User can pass through tiles occupied by enemy units",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_111.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "5",
+      "Mag": "15",
+      "Skl": "5",
+      "Spd": "20",
+      "Lck": "0",
+      "Def": "0",
+      "Res": "20"
+    },
+    "classMaxStats": {
+      "HP": "50",
+      "Str": "27",
+      "Mag": "31",
+      "Skl": "27",
+      "Spd": "34",
+      "Lck": "27",
+      "Def": "25",
+      "Res": "34",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Wyvern Rider",
+    "weapons": {
+      "Axe": "B"
+    },
+    "skills": {
+      "Strength +2": [
+        "1",
+        "Strength +2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_02.png"
+      ],
+      "Lunge": [
+        "10",
+        "Select the “Lunge” command to swap places with an enemy after an attack",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_46.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "15",
+      "Mag": "5",
+      "Skl": "10",
+      "Spd": "10",
+      "Lck": "5",
+      "Def": "20",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "40",
+      "Str": "22",
+      "Mag": "17",
+      "Skl": "21",
+      "Spd": "20",
+      "Lck": "19",
+      "Def": "24",
+      "Res": "15",
+      "Mov": "7"
+    }
+  },
+  {
+    "class": "Wyvern Lord",
+    "weapons": {
+      "Lance": "B",
+      "Axe": "A"
+    },
+    "skills": {
+      "Rally Defence": [
+        "5",
+        "Defence +4 to all allies within a 2 tile radius for one Turn when the “Rally” command is used",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_21.png"
+      ],
+      "Swordbreaker": [
+        "15",
+        "Hit rate and Avoid +50 when the enemy is equipped with a Sword",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_79.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "10",
+      "Str": "15",
+      "Mag": "0",
+      "Skl": "15",
+      "Spd": "10",
+      "Lck": "5",
+      "Def": "20",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "60",
+      "Str": "33",
+      "Mag": "25",
+      "Skl": "33",
+      "Spd": "29",
+      "Lck": "28",
+      "Def": "35",
+      "Res": "26",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Malig Knight",
+    "weapons": {
+      "Axe": "A",
+      "Tome": "B"
+    },
+    "skills": {
+      "Savage Blow": [
+        "5",
+        "When user triggers the battle, enemies within a 2 tile radius have their HP reduced by 20% after the battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_102.png"
+      ],
+      "Trample": [
+        "15",
+        "Unless enemy is on a mount, damage +5",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_63.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "15",
+      "Mag": "15",
+      "Skl": "10",
+      "Spd": "5",
+      "Lck": "0",
+      "Def": "10",
+      "Res": "15"
+    },
+    "classMaxStats": {
+      "HP": "55",
+      "Str": "31",
+      "Mag": "30",
+      "Skl": "28",
+      "Spd": "27",
+      "Lck": "25",
+      "Def": "31",
+      "Res": "31",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Dark Mage",
+    "weapons": {
+      "Tome": "B"
+    },
+    "skills": {
+      "Heartseeker": [
+        "1",
+        "When fighting adjacent to an enemy, enemy's Avoid -20",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_89.png"
+      ],
+      "Malefic Aura": [
+        "10",
+        "Enemies within a 2 tile radius receive 2 extra damage from magical attacks",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_76.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "10",
+      "Mag": "20",
+      "Skl": "0",
+      "Spd": "10",
+      "Lck": "0",
+      "Def": "5",
+      "Res": "10"
+    },
+    "classMaxStats": {
+      "HP": "35",
+      "Str": "19",
+      "Mag": "24",
+      "Skl": "16",
+      "Spd": "19",
+      "Lck": "18",
+      "Def": "19",
+      "Res": "22",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Sorcerer",
+    "weapons": {
+      "Tome": "S"
+    },
+    "skills": {
+      "Vengeance": [
+        "5",
+        "Skill x 1.5% chance of adding half the user's (Max HP – Current HP) as damage",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_32.png"
+      ],
+      "Bowbreaker": [
+        "15",
+        "Hit rate and Avoid +50 when the enemy is equipped with a Bow",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_83.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "0",
+      "Mag": "25",
+      "Skl": "0",
+      "Spd": "10",
+      "Lck": "0",
+      "Def": "5",
+      "Res": "15"
+    },
+    "classMaxStats": {
+      "HP": "50",
+      "Str": "25",
+      "Mag": "35",
+      "Skl": "26",
+      "Spd": "29",
+      "Lck": "26",
+      "Def": "29",
+      "Res": "33",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Dark Knight",
+    "weapons": {
+      "Sword": "B",
+      "Tome": "A"
+    },
+    "skills": {
+      "Seal Magic": [
+        "5",
+        "After battle, enemy's Magic -6 *1",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_12.png"
+      ],
+      "Lifetaker": [
+        "15",
+        "When user triggers the battle, recover 50% HP after defeating the enemy",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_98.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "15",
+      "Str": "20",
+      "Mag": "10",
+      "Skl": "5",
+      "Spd": "5",
+      "Lck": "5",
+      "Def": "15",
+      "Res": "5"
+    },
+    "classMaxStats": {
+      "HP": "55",
+      "Str": "32",
+      "Mag": "31",
+      "Skl": "28",
+      "Spd": "27",
+      "Lck": "31",
+      "Def": "34",
+      "Res": "30",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Troubadour",
+    "weapons": {
+      "Staff": "B"
+    },
+    "skills": {
+      "Resistance +2": [
+        "1",
+        "Resistance +2",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_08.png"
+      ],
+      "Gentilhomme": [
+        "10",
+        "Female allies within a 2 tile radius receive 2 less damage during battles",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_73.png"
+      ],
+      "Demoiselle": [
+        "10",
+        "Male allies within a 2 tile radius receive 2 less damage during battles",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_74.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "0",
+      "Mag": "10",
+      "Skl": "20",
+      "Spd": "10",
+      "Lck": "15",
+      "Def": "0",
+      "Res": "15"
+    },
+    "classMaxStats": {
+      "HP": "35",
+      "Str": "16",
+      "Mag": "19",
+      "Skl": "24",
+      "Spd": "20",
+      "Lck": "23",
+      "Def": "16",
+      "Res": "21",
+      "Mov": "7"
+    }
+  },
+  {
+    "class": "Strategist",
+    "weapons": {
+      "Tome": "B",
+      "Staff": "A"
+    },
+    "skills": {
+      "Rally Resistance": [
+        "5",
+        "Resistance +4 to all allies within a 2 tile radius for one Turn when the “Rally” command is used",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_22.png"
+      ],
+      "Inspiration": [
+        "15",
+        "Allies within a 2 tile radius deal 2 extra damage and receive 2 less damage during battles",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_75.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "0",
+      "Mag": "15",
+      "Skl": "5",
+      "Spd": "10",
+      "Lck": "20",
+      "Def": "0",
+      "Res": "15"
+    },
+    "classMaxStats": {
+      "HP": "45",
+      "Str": "25",
+      "Mag": "33",
+      "Skl": "28",
+      "Spd": "31",
+      "Lck": "33",
+      "Def": "25",
+      "Res": "32",
+      "Mov": "8"
+    }
+  },
+  {
+    "class": "Maid, Butler",
+    "weapons": {
+      "Dagger": "B",
+      "Staff": "S"
+    },
+    "skills": {
+      "Live to Serve": [
+        "5",
+        "When healing an ally, the user recovers the same amount of HP",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_100.png"
+      ],
+      "Tomebreaker": [
+        "15",
+        "Hit rate and Avoid +50 when the enemy is equipped with a Tome",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_84.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "0",
+      "Str": "10",
+      "Mag": "10",
+      "Skl": "15",
+      "Spd": "15",
+      "Lck": "10",
+      "Def": "5",
+      "Res": "10"
+    },
+    "classMaxStats": {
+      "HP": "50",
+      "Str": "28",
+      "Mag": "31",
+      "Skl": "33",
+      "Spd": "33",
+      "Lck": "32",
+      "Def": "29",
+      "Res": "29",
+      "Mov": "6"
+    }
+  },
+  {
+    "class": "Wolfskin",
+    "weapons": {
+      "Beaststone": "B"
+    },
+    "skills": {
+      "Odd Shaped": [
+        "1",
+        "During odd-numbered Turns, damage +4",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_54.png"
+      ],
+      "Beastbane": [
+        "10",
+        "When user is a Wolfskin or Kitsune, their attacks are effective against Beast units",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_40.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "5",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "10",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "45",
+      "Str": "24",
+      "Mag": "15",
+      "Skl": "18",
+      "Spd": "22",
+      "Lck": "17",
+      "Def": "21",
+      "Res": "15",
+      "Mov": "5"
+    }
+  },
+  {
+    "class": "Wolfssegner",
+    "weapons": {
+      "Beaststone": "S"
+    },
+    "skills": {
+      "Better Odds": [
+        "5",
+        "Recover 40% HP at the start of odd-numbered Turns",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_96.png"
+      ],
+      "Grisly Wound": [
+        "15",
+        "The enemy's HP is reduced by 20% after the battle",
+        "https://serenesforest.net/wp-content/uploads/2015/06/fe15skill_103.png"
+      ]
+    },
+    "classGrowthRates": {
+      "HP": "20",
+      "Str": "20",
+      "Mag": "0",
+      "Skl": "5",
+      "Spd": "15",
+      "Lck": "5",
+      "Def": "10",
+      "Res": "0"
+    },
+    "classMaxStats": {
+      "HP": "65",
+      "Str": "36",
+      "Mag": "25",
+      "Skl": "29",
+      "Spd": "31",
+      "Lck": "26",
+      "Def": "32",
+      "Res": "26",
+      "Mov": "6"
+    }
+  }
+]

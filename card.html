@@ -1,0 +1,73 @@
+<!-- This file was just used as reference/planning for writing
+ index.js and fullstats.js
+ This code doesn't actually run on the website-->
+
+<img src="assets/FatesPortraits/${name}.png" class="portrait">
+<div class="name">${name}</div>
+<div class="classes">
+    <div>${char_class} Lv. ${level}
+        <img src="assets/weapons/FE14_Axe.png" class="weapon-icon">
+        <img src="assets/weapons//FE14_Bow.png" class="weapon-icon">
+    </div>
+</div>
+<div class="base-stats">
+    <div>Base stats:</div>
+    <table>
+        <thead>
+            <tr>
+                <td>HP</td>
+                <td>Str</td>
+                <td>Mag</td>
+                <td>Skl</td>
+                <td>Spd</td>
+                <td>Lck</td>
+                <td>Def</td>
+                <td>Res</td>
+                <td>Mov</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>${baseStats["HP"]}</td>
+                <td>${baseStats["Str"]}</td>
+                <td>${baseStats["Mag"]}</td>
+                <td>${baseStats["Skl"]}</td>
+                <td>${baseStats["Spd"]}</td>
+                <td>${baseStats["Lck"]}</td>
+                <td>${baseStats["Def"]}</td>
+                <td>${baseStats["Res"]}</td>
+                <td>${baseStats["Mov"]}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="growth-rates">
+    <div>Growth rates:</div>
+    <table>
+        <thead>
+            <tr>
+                <td>HP</td>
+                <td>Str</td>
+                <td>Mag</td>
+                <td>Skl</td>
+                <td>Spd</td>
+                <td>Lck</td>
+                <td>Def</td>
+                <td>Res</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>${growthRates["HP"]}%</td>
+                <td>${growthRates["Str"]}%</td>
+                <td>${growthRates["Mag"]}%</td>
+                <td>${growthRates["Skl"]}%</td>
+                <td>${growthRates["Spd"]}%</td>
+                <td>${growthRates["Lck"]}%</td>
+                <td>${growthRates["Def"]}%</td>
+                <td>${growthRates["Res"]}%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

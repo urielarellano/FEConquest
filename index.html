@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/full-stats.css">
+        <link rel="stylesheet" href="css/class-cards.css">
+        <title>Scratch site</title>
+    </head>
+
+    <body>
+        
+        <div class="header">
+            <h1>Fire Emblem: Conquest</h1>
+            <br>
+            <p>click a character card to see full character info</p>
+        </div>
+        
+        <div class="left-right-buttons">
+            <div class="left">
+                &#10096;
+            </div>
+            <div class="right">
+                &#10097;
+            </div>
+        </div>
+        
+        <div class="outer-modal" onclick="outerModalClick()"></div>
+
+        <div class="full-stats">
+            <header class="top-bar">
+                <div>
+                    Close Character Info
+                    <div onclick="outerModalClick()">&#10005;</div>
+                </div>
+            </header>
+            <div class="content-area"></div>
+        </div>
+
+        <div class="character-cards"></div>
+        
+
+        <script src="js/fullstats.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
