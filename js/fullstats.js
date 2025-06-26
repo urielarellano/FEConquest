@@ -1,11 +1,60 @@
+const fullStatsDiv = document.querySelector('.full-stats');
+const outerModal = document.querySelector('.outer-modal');
+
+function showModal() {
+  outerModal.style.display = 'block';
+  fullStatsDiv.style.display = 'flex';
+
+  // Force reflow before applying transition
+  void outerModal.offsetWidth;
+  void fullStatsDiv.offsetWidth;
+
+  outerModal.classList.add('show');
+  fullStatsDiv.classList.add('show');
+}
+
+function hideModal() {
+  outerModal.classList.remove('show');
+  fullStatsDiv.classList.remove('show');
+
+  outerModal.addEventListener('transitionend', () => {
+    outerModal.style.display = 'none';
+  }, { once: true });
+
+  fullStatsDiv.addEventListener('transitionend', () => {
+    fullStatsDiv.style.display = 'none';
+  }, { once: true });
+};
+
+function outerModalClick() {
+    hideModal();
+    document.querySelector('.left-right-buttons').style.display = 'none';
+};
+
+
+
 function fullStats(characterName) {
     Promise.all([
         fetch(`http://localhost:3000/characters/${characterName}`).then(res => res.json()),
+        fetch(`http://localhost:3000/characters/${characterName}/previous`).then(res => res.ok ? res.json() : null),
+        fetch(`http://localhost:3000/characters/${characterName}/next`).then(res => res.ok ? res.json() : null),
         fetch("http://localhost:3000/classes").then(res => res.json())
     ])
-    .then(([character, classes]) => {
+    .then(([character, previousCharacter, nextCharacter, classes]) => {
         document.querySelector(".content-area").remove();
+        window.previousCharacter = previousCharacter;
+        window.nextCharacter = nextCharacter;
+
         const characterInfo = character;
+        prevCharacterName = null;
+        if (previousCharacter) {
+            const prevCharacterName = previousCharacter.name;
+        }
+        nextCharacterName = null;
+        if (nextCharacter) {
+            const nextCharacterName = nextCharacter.name;
+        }
+        
         // get personal skill info
         const personalSkillEntries = Object.entries(characterInfo.personalSkill)
         const [personalSkillName, [personalSkillDescr, personalSkillUrl]] = personalSkillEntries[0];
@@ -307,9 +356,50 @@ function fullStats(characterName) {
         container.appendChild(contentArea);
         heartToggle();
 
-        document.querySelector('.outer-modal').style.display = 'flex';
-        document.querySelector('.full-stats').style.display = 'flex';
+        showModal();
         document.querySelector('.left-right-buttons').style.display = 'flex';
 
+        leftButton = document.querySelector('.left');
+        rightButton = document.querySelector('.right');
+        leftButton.addEventListener("click", () =>prevStats(prevCharacterName));
+        rightButton.addEventListener("click", () =>nextStats(nextCharacterName));
     })
 };
+
+function prevStats(previousCharacter) {
+    if (!previousCharacter) {
+        return;
+    }
+    fullStats(previousCharacter);
+};
+
+function nextStats(nextCharacter) {
+    if (!nextCharacter) {
+        return;
+    }
+    fullStats(nextCharacter);
+};
+
+const pressedClass = "button-pressed";
+
+function pressButton(button) {
+    if (!button) return;
+    button.classList.add(pressedClass);
+    setTimeout(() => button.classList.remove(pressedClass), 100);
+}
+
+document.addEventListener("keydown", (event) => {
+    if (["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+    if (event.key === "ArrowLeft" || event.key === "<") {
+        if (window.previousCharacter?.name) {
+            pressButton(document.querySelector('.left'));
+            prevStats(previousCharacter.name);
+        }
+    } else if (event.key === "ArrowRight" || event.key === ">") {
+        if (window.nextCharacter?.name) {
+            pressButton(document.querySelector('.right'));
+            nextStats(nextCharacter.name);
+        }
+    }
+});
+

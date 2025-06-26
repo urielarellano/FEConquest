@@ -45,6 +45,56 @@ async function startServer() {
       }
     });
 
+    app.get("/characters/:name/previous", async (req, res) => {
+      try {
+        const current = await db.collection("characters").findOne({ name: req.params.name });
+
+        if (!current) {
+          return res.status(404).send("Current Character not found.");
+        }
+
+        const previous = await db.collection("characters")
+          .find({ _id: { $lt: current._id } })  // Find earlier insertions
+          .sort({ _id: -1 })                    // Sort descending (closest earlier one)
+          .limit(1)
+          .toArray();
+
+        if (previous.length === 0) {
+          return res.status(404).send("No previous character found.");
+        }
+
+        res.json(previous[0]);
+      } catch (err) {
+        console.error(err);
+        res.status(500).send("Error finding previous character.");
+      }
+    });
+
+    app.get("/characters/:name/next", async (req, res) => {
+      try {
+        const current = await db.collection("characters").findOne({ name: req.params.name });
+
+        if (!current) {
+          return res.status(404).send("Character not found.");
+        }
+
+        const next = await db.collection("characters")
+          .find({ _id: { $gt: current._id } })  // Find later insertions
+          .sort({ _id: 1 })                     // Sort ascending (closest later one)
+          .limit(1)
+          .toArray();
+
+        if (next.length === 0) {
+          return res.status(404).send("No next character found.");
+        }
+
+        res.json(next[0]);
+      } catch (err) {
+        console.error(err);
+        res.status(500).send("Error finding next character.");
+      }
+    });
+
     app.get("/classes", async (req, res) => {
       try {
         const classes = await db.collection("classes").find().toArray();

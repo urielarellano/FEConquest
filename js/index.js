@@ -1,11 +1,3 @@
-function outerModalClick() {
-    document.querySelector('.full-stats').style.display = 'none';
-    document.querySelector('.outer-modal').style.display = 'none';
-    document.querySelector('.left-right-buttons').style.display = 'none';
-}
-
-
-
 Promise.all([
   fetch('http://localhost:3000/characters').then(res => res.json()),
   fetch("http://localhost:3000/classes").then(res => res.json())

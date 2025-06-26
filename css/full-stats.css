@@ -2,10 +2,10 @@
 
 .full-stats {
     display: none;
-    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     height: 97vh;
     width: 93vw;
     position: fixed;
@@ -13,7 +13,16 @@
     flex-direction: column;
     border-radius: 20px;
     background: linear-gradient(110deg, rgb(227, 239, 246), rgb(182, 201, 231));
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    background-color: white;
 }
+
+.full-stats.show {
+    display: flex;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 
 .top-bar {
     border-radius: 20px 20px 0 0;
@@ -56,7 +65,30 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: .5%;
+
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+.content-area.fade-out-left {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+.content-area.fade-out-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+.content-area.fade-in {
+  opacity: 0;
+  transform: translateX(50px);
+}
+.content-area.fade-in.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
 
 .character-panel {
     display: flex;
