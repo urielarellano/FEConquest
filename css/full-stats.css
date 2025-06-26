@@ -2,25 +2,27 @@
 
 .full-stats {
     display: none;
-    background-color: rgb(246, 246, 235);
+    background-color: rgb(255, 255, 255);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 96vh;
+    height: 97vh;
     width: 93vw;
     position: fixed;
     z-index: 5;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 20px;
+    background: linear-gradient(110deg, rgb(227, 239, 246), rgb(182, 201, 231));
 }
 
 .top-bar {
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(195, 195, 195);
+    background-color: rgb(228, 228, 228);
     height: 8vh;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 }
 .top-bar div {
     margin: 5px 5px 5px auto;
@@ -28,16 +30,24 @@
     flex-direction: row;
     font-size: 18px;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
 }
 .top-bar div div {
     background-color: rgb(154, 153, 153);
     cursor: pointer;
-    padding: 2px 8px 3.5px;
+    padding: 0px 6px 1px;
+    padding-bottom: 3px;
     margin-left: 7px;
     font-weight: bold;
     display: flex;
     align-items: center;
     font-size: 20px;
+}
+.top-bar div div:hover {
+    background-color: rgb(99, 99, 99);
+    color: rgb(203, 203, 203);
 }
 
 
@@ -55,16 +65,21 @@
     height: 70vh;
     width: 25vw;
     margin-right: auto;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-top: 42px;
+    gap: 5px;
+    
 }
 
 .character-fullsize {
     height: 100%;
     width: 100%;
     padding: 10px 10px;
-    background-color: rgb(201, 192, 239, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
     object-fit: contain;
     object-position: center;
+    border-radius: 5px;
 }
 .character-name {
     font-size: 30px;

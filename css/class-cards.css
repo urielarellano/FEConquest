@@ -37,10 +37,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
     padding: 5px;
     width: 100%;
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .class-title {
@@ -50,6 +53,7 @@
     gap: 10px;
     margin-bottom: 10px;
     margin-top: 3px;
+    
 }
 .sprite {
     image-rendering: pixelated;
@@ -63,7 +67,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .weapon-letter {
     color: rgb(25, 215, 25);
@@ -76,7 +80,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(72, 72, 72);
+    border-bottom: 1px solid rgb(72, 72, 72);
     gap: 6px;
 }
 .skill {
@@ -101,30 +109,44 @@
 }
 
 .full-growth-rates,
-.max-stats,
-.full-base-stats {
+.max-stats {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 .full-growth-rates p,
-.max-stats p,
-.full-base-stats p {
+.max-stats p {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .full-growth-rates table,
-.max-stats table,
-.full-base-stats table {
-    
+.max-stats table {
+    border-collapse: collapse;
+    margin-bottom: 3px;
 }
 
 .full-growth-rates table thead td,
-.max-stats table thead td,
-.full-base-stats table thead td {
+.max-stats table thead td {
     border: 2px solid black;
-    padding: 0px 3px;
+    padding: 3px 4px;
+    background-color: #ecd7ff;
+}
+.full-growth-rates table thead td {
+    background-color: rgb(255, 255, 216);
+}
+
+.full-growth-rates table tbody td,
+.max-stats table tbody td {
+    border: 2px solid black;
+    padding: 3px 4px;
+}
+.max-stats table tbody td {
+    color: rgb(0, 151, 0);
 }
