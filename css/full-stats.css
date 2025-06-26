@@ -16,7 +16,6 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
   background-color: white;
 }
-
 .full-stats.show {
   display: flex;
   opacity: 1;

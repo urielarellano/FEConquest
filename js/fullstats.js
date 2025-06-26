@@ -2,7 +2,7 @@ const fullStatsDiv = document.querySelector('.full-stats');
 const outerModal = document.querySelector('.outer-modal');
 
 function showModal() {
-  outerModal.style.display = 'block';
+  outerModal.style.display = 'flex';
   fullStatsDiv.style.display = 'flex';
 
   // Force reflow before applying transition
@@ -44,16 +44,18 @@ function fullStats(characterName) {
         document.querySelector(".content-area").remove();
         window.previousCharacter = previousCharacter;
         window.nextCharacter = nextCharacter;
+        prevCharacterName = null;
+        nextCharacterName = null;
+        if (previousCharacter) {
+            prevCharacterName = previousCharacter.name;
+            console.log(prevCharacterName);
+        }
+        if (nextCharacter) {
+            nextCharacterName = nextCharacter.name;
+        }
+
 
         const characterInfo = character;
-        prevCharacterName = null;
-        if (previousCharacter) {
-            const prevCharacterName = previousCharacter.name;
-        }
-        nextCharacterName = null;
-        if (nextCharacter) {
-            const nextCharacterName = nextCharacter.name;
-        }
         
         // get personal skill info
         const personalSkillEntries = Object.entries(characterInfo.personalSkill)
@@ -287,6 +289,7 @@ function fullStats(characterName) {
         heartCheckbox.addEventListener("change", heartToggle);
 
         function heartToggle () {
+            heartCheckbox.blur();
             document.querySelector(".class-cards").innerHTML = ``;
             if (!heartCheckbox.checked) { // Default Classes
                 const CardsContainer = document.querySelector(".class-cards");
@@ -361,8 +364,8 @@ function fullStats(characterName) {
 
         leftButton = document.querySelector('.left');
         rightButton = document.querySelector('.right');
-        leftButton.addEventListener("click", () =>prevStats(prevCharacterName));
-        rightButton.addEventListener("click", () =>nextStats(nextCharacterName));
+        leftButton.addEventListener("click", () => prevStats(prevCharacterName));
+        rightButton.addEventListener("click", () => nextStats(nextCharacterName));
     })
 };
 
@@ -380,7 +383,7 @@ function nextStats(nextCharacter) {
     fullStats(nextCharacter);
 };
 
-const pressedClass = "button-pressed";
+const pressedClass = "button-pressed"
 
 function pressButton(button) {
     if (!button) return;
@@ -390,6 +393,8 @@ function pressButton(button) {
 
 document.addEventListener("keydown", (event) => {
     if (["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+
+    console.log("Key pressed:", event.key);
     if (event.key === "ArrowLeft" || event.key === "<") {
         if (window.previousCharacter?.name) {
             pressButton(document.querySelector('.left'));
