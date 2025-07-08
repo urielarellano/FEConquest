@@ -1,3 +1,7 @@
+const API_BASE_URL = window.location.hostname === "localhost"
+  ? "http://localhost:3000"
+  : "https://feconquest.onrender.com";
+
 const fullStatsDiv = document.querySelector('.full-stats');
 const outerModal = document.querySelector('.outer-modal');
 
@@ -35,10 +39,10 @@ function outerModalClick() {
 
 function fullStats(characterName) {
     Promise.all([
-        fetch(`http://localhost:3000/characters/${characterName}`).then(res => res.json()),
-        fetch(`http://localhost:3000/characters/${characterName}/previous`).then(res => res.ok ? res.json() : null),
-        fetch(`http://localhost:3000/characters/${characterName}/next`).then(res => res.ok ? res.json() : null),
-        fetch("http://localhost:3000/classes").then(res => res.json())
+        fetch(`${API_BASE_URL}/characters/${characterName}`).then(res => res.json()),
+        fetch(`${API_BASE_URL}/${characterName}/previous`).then(res => res.ok ? res.json() : null),
+        fetch(`${API_BASE_URL}/${characterName}/next`).then(res => res.ok ? res.json() : null),
+        fetch(`${API_BASE_URL}/classes`).then(res => res.json())
     ])
     .then(([character, previousCharacter, nextCharacter, classes]) => {
         document.querySelector(".content-area").remove();

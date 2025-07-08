@@ -8,7 +8,8 @@ const port = 3000;
 
 const allowedOrigins = [
   "http://localhost:5500",
-  "https://urielarellano.github.io"
+  "https://urielarellano.github.io",
+  "https://feconquest.onrender.com/"
 ];
 
 app.use(cors({

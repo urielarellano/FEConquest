@@ -1,6 +1,10 @@
+const API_BASE_URL = window.location.hostname === "localhost"
+  ? "http://localhost:3000"
+  : "https://feconquest.onrender.com";
+
 Promise.all([
-  fetch('http://localhost:3000/characters').then(res => res.json()),
-  fetch("http://localhost:3000/classes").then(res => res.json())
+  fetch(`${API_BASE_URL}/characters`).then(res => res.json()),
+  fetch(`${API_BASE_URL}/classes`).then(res => res.json())
 ])
 .then(([characters, classes]) => {
   characters.forEach(character => {
