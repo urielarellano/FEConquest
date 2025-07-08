@@ -40,8 +40,8 @@ function outerModalClick() {
 function fullStats(characterName) {
     Promise.all([
         fetch(`${API_BASE_URL}/characters/${characterName}`).then(res => res.json()),
-        fetch(`${API_BASE_URL}/${characterName}/previous`).then(res => res.ok ? res.json() : null),
-        fetch(`${API_BASE_URL}/${characterName}/next`).then(res => res.ok ? res.json() : null),
+        fetch(`${API_BASE_URL}/characters/${characterName}/previous`).then(res => res.ok ? res.json() : null),
+        fetch(`${API_BASE_URL}/characters/${characterName}/next`).then(res => res.ok ? res.json() : null),
         fetch(`${API_BASE_URL}/classes`).then(res => res.json())
     ])
     .then(([character, previousCharacter, nextCharacter, classes]) => {
