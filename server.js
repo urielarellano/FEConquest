@@ -6,7 +6,20 @@ require('dotenv').config();
 const app = express();
 const port = 3000;
 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5500",
+  "https://urielarellano.github.io"
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  }
+}));
 app.use(express.json());
 
 const uri = process.env.MONGODB_URI;
