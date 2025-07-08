@@ -22,7 +22,7 @@ Promise.all([
     card.addEventListener("click", () => fullStats(name));
 
     html = `
-      <img src="assets/FatesPortraits/${name}.png" class="portrait" loading="lazy">
+      <img src="assets/FatesPortraits/${name}.webp" class="portrait" loading="lazy">
       <div class="name">${name}</div>
       <div class="classes">
           <div>${char_class}</div> <div>|</div> <div>Lv. ${level}</div> <div>|</div>
