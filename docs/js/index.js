@@ -1,6 +1,3 @@
-const API_BASE_URL = window.location.hostname === "localhost"
-  ? "http://localhost:3000"
-  : "https://feconquest.onrender.com";
 
 Promise.all([
   fetch(`${API_BASE_URL}/characters`).then(res => res.json()),
