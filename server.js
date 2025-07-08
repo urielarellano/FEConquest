@@ -21,7 +21,10 @@ async function startServer() {
     // Register routes here, with access to db:
     app.get("/characters", async (req, res) => {
       try {
-        const characters = await db.collection("characters").find().toArray();
+        const characters = await db.collection("characters")
+          .find()
+          .sort({ _id: 1 }) // <-- Added this
+          .toArray();
         res.json(characters);
       } catch (err) {
         console.error(err);
@@ -120,6 +123,15 @@ async function startServer() {
         res.status(500).send("Error fetching class.");
       }
     });
+
+    const path = require("path");
+
+    app.use(express.static(path.join(__dirname)));
+
+    app.get("/", (req, res) => {
+      res.sendFile(path.join(__dirname, "index.html"));
+    });
+
 
     app.listen(port, () => {
       console.log(`Server running at http://localhost:${port}`);
