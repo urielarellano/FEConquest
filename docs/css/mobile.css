@@ -8,6 +8,7 @@
         overflow-x: auto;
         gap: 15px;
         padding: 20px 15px;
+        height: auto;
     }
     .card {
         flex: 0 0 auto;
