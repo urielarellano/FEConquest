@@ -63,7 +63,6 @@ async function startServer() {
     });
 
     app.get("/characters/:name/previous", async (req, res) => {
-      console.log("GET /characters/:name/previous called with name:", req.params.name);
       try {
         const current = await db.collection("characters").findOne({ name: req.params.name });
 

@@ -4,7 +4,7 @@ import os
 input_folder = 'docs/assets/FatesPortraits'
 output_folder = 'docs/assets/FatesPortraits/resized'
 
-scale_factor = 0.2
+scale_factor = 0.25
 quality = 100
 
 os.makedirs(output_folder, exist_ok=True)

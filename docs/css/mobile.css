@@ -1,0 +1,45 @@
+@media screen and (max-width: 1060px) {
+    .character-cards {
+        background: linear-gradient(110deg, rgb(227, 239, 246), rgb(159, 191, 242));
+        display: flex !important;       /* ensure flex overrides grid */
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        gap: 15px;
+        padding: 20px 15px;
+    }
+    .card {
+        flex: 0 0 auto;
+    }
+    .header {
+
+    }
+    /*
+    .character-cards::-webkit-scrollbar {
+        display: none;
+    }
+    .character-cards {
+        scrollbar-width: none;
+    }
+    */
+}
+
+@media screen and (max-width: 760px) {
+    .header {
+        height: 130px;
+        gap: 15px;
+    }
+    .header h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 160px;
+    }
+    .header h1 {
+        font-size: 40px;
+    }
+}

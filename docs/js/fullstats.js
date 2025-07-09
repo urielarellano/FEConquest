@@ -52,7 +52,6 @@ function fullStats(characterName) {
         nextCharacterName = null;
         if (previousCharacter) {
             prevCharacterName = previousCharacter.name;
-            console.log(prevCharacterName);
         }
         if (nextCharacter) {
             nextCharacterName = nextCharacter.name;
@@ -398,7 +397,6 @@ function pressButton(button) {
 document.addEventListener("keydown", (event) => {
     if (["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
 
-    console.log("Key pressed:", event.key);
     if (event.key === "ArrowLeft" || event.key === "<") {
         if (window.previousCharacter?.name) {
             pressButton(document.querySelector('.left'));
