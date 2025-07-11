@@ -8,14 +8,11 @@
         overflow-x: auto;
         gap: 15px;
         padding: 20px 15px;
-        height: auto;
     }
     .card {
         flex: 0 0 auto;
     }
-    .header {
-
-    }
+    
     /*
     .character-cards::-webkit-scrollbar {
         display: none;
@@ -33,6 +30,51 @@
     }
     .header h1 {
         font-size: 40px;
+    }
+
+    .top-bar {
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    .full-stats {
+        width: 90%;
+        height: 90%;
+        background: linear-gradient(100deg, rgb(227, 239, 246), rgb(166, 192, 234));
+    }
+    .content-area {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .character-panel {
+        height: auto;
+        width: 90%;
+        margin: 10px auto;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+    .class-info-panel {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .heart-seal {
+        margin-left: auto;
+        position: sticky;
+        top: 55px;
+        z-index: 2;
+        opacity: 100%;
+        background-color: rgb(219, 125, 125);
+    }
+    .class-box {
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .promotion-boxes {
+        flex-direction: column;
+    }
+    .skill-description {
+        width: auto;
     }
 }
 
