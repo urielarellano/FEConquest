@@ -410,3 +410,26 @@ document.addEventListener("keydown", (event) => {
     }
 });
 
+
+
+function simulateKeydown(key) {
+  const event = new KeyboardEvent('keydown', {
+    key: key,
+    bubbles: true,
+    cancelable: true,
+  });
+  document.dispatchEvent(event);
+}
+
+const leftDiv = document.querySelector('.left');
+const rightDiv = document.querySelector('.right');
+
+leftDiv.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+  simulateKeydown('ArrowLeft');
+}, { passive: false });
+
+rightDiv.addEventListener('touchstart', (e) => {
+  e.preventDefault();
+  simulateKeydown('ArrowRight');
+}, { passive: false });

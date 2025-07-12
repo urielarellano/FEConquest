@@ -32,13 +32,27 @@
         font-size: 40px;
     }
 
+    .left, .right {
+        font-size: 60px;
+        padding: 0px 5px 8px 5px;
+        top: 60%;
+    }
+    .left {
+        padding-right: 10px;
+        left: 5px;
+    }
+    .right {
+        padding-left: 10px;
+        right: 5px;
+    }
+
     .top-bar {
         position: sticky;
         top: 0%;
         z-index: 2;
     }
     .full-stats {
-        width: 90%;
+        width: 94%;
         height: 90%;
         background: linear-gradient(100deg, rgb(227, 239, 246), rgb(166, 192, 234));
     }
@@ -49,15 +63,16 @@
     }
     .character-panel {
         height: auto;
+        max-height: 400px;
         width: 90%;
         margin: 10px auto;
-        padding-bottom: 10px;
+        padding-bottom: 45px;
         border-bottom: 1px solid black;
     }
     .class-info-panel {
         width: 100%;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .heart-seal {
         margin-left: auto;
