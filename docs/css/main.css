@@ -45,15 +45,17 @@
 .header p {
   color: rgb(246, 246, 135);
   font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 14px;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .cards-container {
   background: linear-gradient(110deg, rgb(227, 239, 246), rgb(173, 195, 230));
 }
+.cards-container h1 {
+  display: none;
+}
 .character-cards {
-    
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
     gap: 20px;

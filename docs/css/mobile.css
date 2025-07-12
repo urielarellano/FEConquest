@@ -3,10 +3,10 @@
         background: linear-gradient(110deg, rgb(227, 239, 246), rgb(152, 185, 239));
     }
     .character-cards {
-        display: flex !important;       /* ensure flex overrides grid */
+        display: flex;       /* ensure flex overrides grid */
         flex-direction: row;
         justify-content: flex-start;
-        flex-wrap: nowrap !important;
+        flex-wrap: nowrap;
         overflow-x: auto;
         gap: 15px;
         padding: 20px 15px;
@@ -14,6 +14,39 @@
     .card {
         flex: 0 0 auto;
     }
+    .cards-container h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .character-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        overflow-x: none;
+        flex-wrap: wrap;
+        padding: 10px 8px 20px 8px;
+    }
+    .list-character {
+        display: inline-block;
+        background-color: rgb(0,0,0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        gap: 5px;
+        padding: 15px 12px 5px 12px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+    .character-press {
+        background-color: rgb(0,0,0, 0.5);
+    }
+    
     
     /*
     .character-cards::-webkit-scrollbar {

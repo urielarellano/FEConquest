@@ -124,16 +124,29 @@ Promise.all([
 
     
     if (isSmallScreen) {
-        const char_container = document.querySelector(".cards-container");
+        const list_container = document.querySelector(".character-list");
         // rest of code
         const char_list = document.createElement("div");
+        char_list.className = "list-character"
         html = `
             <img src="assets/sprites/${name}-${character.class}.gif" class="sprite">
             <p>${name}</p>
-            <br>
         `;
         char_list.innerHTML = html;
-        char_container.appendChild(char_list);
+
+        const pressedClass = "character-press"
+        function pressButton(button) {
+            if (!button) return;
+            button.classList.add(pressedClass);
+            setTimeout(() => button.classList.remove(pressedClass), 100);
+        }
+        char_list.addEventListener("click", () => {
+            pressButton(char_list);
+            fullStats(name);
+        });
+        
+        char_list.addEvent
+        list_container.appendChild(char_list);
     }
     
   });
