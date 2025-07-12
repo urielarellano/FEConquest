@@ -138,8 +138,10 @@
     justify-content: space-evenly;
     background-color: rgba(207, 84, 84, 0.625);
     border: 1px solid black;
-    height: 20px;
-    width: 90px;
+    padding: 2px;
+    gap: 4px;
+    height: fit-content;
+    width: fit-content;
 }
 
 
