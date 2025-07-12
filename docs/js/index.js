@@ -1,3 +1,4 @@
+const isSmallScreen = window.matchMedia("(max-width: 1060px)").matches;
 
 Promise.all([
   fetch(`${API_BASE_URL}/characters`).then(res => res.json()),
@@ -120,6 +121,21 @@ Promise.all([
 
     card.innerHTML = html
     container.appendChild(card);
+
+    
+    if (isSmallScreen) {
+        const char_container = document.querySelector(".cards-container");
+        // rest of code
+        const char_list = document.createElement("div");
+        html = `
+            <img src="assets/sprites/${name}-${character.class}.gif" class="sprite">
+            <p>${name}</p>
+            <br>
+        `;
+        char_list.innerHTML = html;
+        char_container.appendChild(char_list);
+    }
+    
   });
 
 

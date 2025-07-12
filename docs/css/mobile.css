@@ -1,6 +1,8 @@
 @media screen and (max-width: 1060px) {
+    .cards-container {
+        background: linear-gradient(110deg, rgb(227, 239, 246), rgb(152, 185, 239));
+    }
     .character-cards {
-        background: linear-gradient(110deg, rgb(227, 239, 246), rgb(159, 191, 242));
         display: flex !important;       /* ensure flex overrides grid */
         flex-direction: row;
         justify-content: flex-start;

@@ -49,9 +49,11 @@
     font-size: 14px;
 }
 
+.cards-container {
+  background: linear-gradient(110deg, rgb(227, 239, 246), rgb(173, 195, 230));
+}
 .character-cards {
-    background-color: rgb(231, 226, 253);
-    background: linear-gradient(110deg, rgb(227, 239, 246), rgb(182, 201, 231));
+    
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
     gap: 20px;
