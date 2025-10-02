@@ -36,7 +36,6 @@ tables = sprites_soup.find_all('table')
 first_table = tables[0]
 #print(str(first_table).splitlines()[0])
 
-
 for table in tables[1:3]:
     trs = table.find_all('tr')[1:] #skip header row
 
