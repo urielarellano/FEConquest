@@ -21,5 +21,3 @@ with open("hoshidan-classes.json", "r", encoding="utf-8") as f:
 
 print("✅ Data inserted into MongoDB!")
 
-
-

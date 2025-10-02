@@ -217,9 +217,11 @@ for character_wiki in hrefs:
                 growthRates[headers[i+1].text.strip()] = tds[i+1].text.strip()
             break
 
+    # update name and name_idx
     name = names[name_idx]
     name_idx +=1
     
+    # append all data fields to data
     data.append({
         "name": name,
         "class": sclass,
