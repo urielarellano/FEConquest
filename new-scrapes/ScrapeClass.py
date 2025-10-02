@@ -168,7 +168,7 @@ class Character:
         
         return None
     
-    # set growth rates using serenes
+    # set growth rates using serenes growth rates soup
     def set_growth_rates(self):
         """
         Set growth_rates by parsing GROWTH_RATES_SOUP
@@ -197,7 +197,7 @@ class Character:
         
         return None
     
-    # set max stats using serenes and MongoDB
+    # set max stats using serenes max stats soup
     def set_max_stats(self):
         """
         Set growth rates by parsing MAX_STATS_SOUP
