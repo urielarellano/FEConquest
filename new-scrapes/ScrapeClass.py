@@ -284,13 +284,13 @@ class Character:
         and fathers/mothers
         """
 
-        # male Kanna spans
+        # male Kana spans
         mother_span_one = self.wiki_soup.find('span', id='Inheritance_from_Mother')
         father_span_one = self.wiki_soup.find('span', id='Inheritance_from_Father')
         buddy_span_one = self.wiki_soup.find('span', id='Buddy_Sets')
         partner_span_one = self.wiki_soup.find('span', id='Marriage_Sets')
 
-        # female Kanna spans
+        # female Kana spans
         mother_span_two = self.wiki_soup.find('span', id='Inheritance_from_Mother_2')
         father_span_two = self.wiki_soup.find('span', id='Inheritance_from_Father_2')
         buddy_span_two = self.wiki_soup.find('span', id='Friendship_Sets')
