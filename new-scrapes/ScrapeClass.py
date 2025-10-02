@@ -31,6 +31,17 @@ class Character:
         "Siegbert", "Forrest", "Soleil", "Ophelia", "Nina",
         "Percy", "Ignatius", "Velouria",
     ]
+    GENDER_DATA = {
+        "Corrin": "F", "Azura": "F", "Felicia": "F", "Jakob": "M",
+        "Silas": "M", "Kaze": "M", "Mozu": "F", "Shura": "M", "Xander": "M",
+        "Camilla": "F", "Leo": "M", "Elise": "F", "Laslow": "M", "Peri": "F",
+        "Selena": "F", "Beruka": "F", "Odin": "M", "Niles": "M", "Effie": "F",
+        "Arthur": "M", "Nyx": "F", "Charlotte": "F", "Benny": "M", "Keaton": "M",
+        "Gunter": "M", "Flora": "F", "Izana": "M", "Kana M": "M", "Kana F": "F",
+        "Shigure": "M", "Dwyer": "M", "Sophie": "F", "Midori": "F", 
+        "Siegbert": "M", "Forrest": "M", "Soleil": "F", "Ophelia": "F", 
+        "Nina": "F", "Percy": "M", "Ignatius": "M", "Velouria": "F",
+    }
     BIRTHRIGHT_CHARACTERS = set(get_birthright_names())
     SKILLS_SOUP = get_soup("https://serenesforest.net/fire-emblem-fates/nohrian-characters/personal-skills/")
     GROWTH_RATES_SOUP = get_soup("https://serenesforest.net/fire-emblem-fates/nohrian-characters/growth-rates/")
@@ -38,6 +49,7 @@ class Character:
 
     def __init__(self, name: str):
         self.name = name
+        self.gender = self.GENDER_DATA[name]
         self.is_child = name in Character.CHILD_NAMES
 
         self.fathers: list[str] = []
@@ -584,55 +596,13 @@ class Character:
 ########################################################
 
 
-names = [
-    "Corrin",
-    "Azura",
-    "Felicia",
-    "Jakob",
-    "Silas",
-    "Kaze",
-    "Mozu",
-    "Shura",
-    "Xander",
-    "Camilla",
-    "Leo",
-    "Elise",
-    "Laslow",
-    "Peri",
-    "Selena",
-    "Beruka",
-    "Odin",
-    "Niles",
-    "Effie",
-    "Arthur",
-    "Nyx",
-    "Charlotte",
-    "Benny",
-    "Keaton",
-    "Gunter",
-    "Flora",
-    "Izana",
-    "Kana M",
-    "Kana F",
-    "Shigure",
-    "Dwyer",
-    "Sophie",
-    "Midori",
-    "Siegbert",
-    "Forrest",
-    "Soleil",
-    "Ophelia",
-    "Nina",
-    "Percy",
-    "Ignatius",
-    "Velouria",
-]
-
-
 # fill in a 'data' with character info, save as json file
 
 data = []
+sprites = []
 names = get_character_names()
+base_folder = "new_sprites"
+os.makedirs(base_folder, exist_ok=True)
 
 for name in names:
     time.sleep(0.3)
@@ -641,6 +611,7 @@ for name in names:
 
     data.append({
         'name': c.name,
+        'gender': c.gender,
         'isChild': c.is_child,
         'fathers': c.fathers,
         'mothers': c.mothers,
@@ -655,15 +626,51 @@ for name in names:
         "heartSets": c.heart_sets,
         "partnerSets": c.partner_sets,
         "buddySets": c.buddy_sets,
-        "sprites": c.sprites
+        # "sprites": c.sprites
+    })
+
+    sprites.append({
+        'name': c.name,
+        'sprites': c.sprites
     })
     print(c.name + ' added')
+
 
 with open("characters.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-
+with open("sprites.json", "w", encoding="utf-8") as f:
+    json.dump(sprites, f, indent=2, ensure_ascii=False)
 
 # start = time.time()
 # end = time.time()
 # print(f"Runtime: {end - start:.4f} seconds")
+
+
+###### Save sprites for this character #####
+# NOTE: this would go in the [for name in names:] loop,
+# after c.set_all()
+    # char_folder = os.path.join(base_folder, c.name)
+    # os.makedirs(char_folder, exist_ok=True)
+
+    # for class_name, href in c.sprites.items():
+    #     # Sanitize class name for filenames
+    #     safe_class_name = class_name.replace(" ", "_").replace("/", "_")
+    #     # Get extension from URL or default to .webp
+    #     ext = os.path.splitext(href)[1] or ".webp"
+    #     filename = f"{c.name}-{safe_class_name}{ext}"
+    #     filepath = os.path.join(char_folder, filename)
+
+    #     try:
+    #         response = requests.get(href)
+    #         if response.status_code == 200:
+    #             with open(filepath, "wb") as f:
+    #                 f.write(response.content)
+    #             print(f"Saved {filename}")
+    #         else:
+    #             print(f"Failed to download {href}")
+    #     except Exception as e:
+    #         print(f"Error downloading {href}: {e}")
+
+    #     time.sleep(0.1)  # polite delay
+    ################################################
