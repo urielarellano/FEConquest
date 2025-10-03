@@ -526,11 +526,16 @@ class Character:
                     
         return None
 
-    # helper function, removes birthright characters from base/heart/buddy/partner sets
+    # helper function, removes birthright characters from base/heart/buddy/partner sets and fathers/mothers
     def _remove_birthright(self):
         """
         iterate through heart/partner/buddy sets and remove birthright character entries
         """
+        # remove birthright fathers/mothers
+        self.fathers = [f for f in self.fathers if f not in self.BIRTHRIGHT_CHARACTERS]
+        self.mothers = [m for m in self.mothers if m not in self.BIRTHRIGHT_CHARACTERS]
+
+        # remove birthright character classes
         for sets in [self.heart_sets, self.partner_sets, self.buddy_sets]:
             for char_name in list(sets.keys()):  # use list() so we can modify while iterating
                 if char_name in self.BIRTHRIGHT_CHARACTERS:
@@ -605,9 +610,10 @@ base_folder = "new_sprites"
 os.makedirs(base_folder, exist_ok=True)
 
 for name in names:
-    time.sleep(0.3)
+    time.sleep(0.1)
     c = Character(name)
     c.set_all()
+
 
     data.append({
         'name': c.name,
@@ -656,17 +662,16 @@ with open("sprites.json", "w", encoding="utf-8") as f:
     # for class_name, href in c.sprites.items():
     #     # Sanitize class name for filenames
     #     safe_class_name = class_name.replace(" ", "_").replace("/", "_")
-    #     # Get extension from URL or default to .webp
-    #     ext = os.path.splitext(href)[1] or ".webp"
-    #     filename = f"{c.name}-{safe_class_name}{ext}"
+    #     filename = f"{c.name}-{safe_class_name}.gif"  # always save as gif
     #     filepath = os.path.join(char_folder, filename)
 
     #     try:
-    #         response = requests.get(href)
+    #         response = requests.get(href, stream=True)
     #         if response.status_code == 200:
+    #             # Save the downloaded GIF directly (animation preserved)
     #             with open(filepath, "wb") as f:
     #                 f.write(response.content)
-    #             print(f"Saved {filename}")
+    #             print(f"Saved {filename} (animation preserved)")
     #         else:
     #             print(f"Failed to download {href}")
     #     except Exception as e:

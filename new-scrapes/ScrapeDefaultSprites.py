@@ -75,21 +75,14 @@ folder = "default_sprites"
 os.makedirs(folder, exist_ok=True)
 
 for key, href in data.items():
-    # Get the file extension from the URL
-    ext = os.path.splitext(href)[1]  # includes the dot, e.g., ".webp"
-    if not ext:  # fallback
-        ext = ".webp"
-    
-    # Build the file path
-    filename = f"{key}{ext}"
-    filepath = os.path.join(folder, filename)
-    
-    # Download the image
-    response = requests.get(href)
+    gif_filename = f"{key}.gif"
+    gif_filepath = os.path.join(folder, gif_filename)
+
+    response = requests.get(href, stream=True)
     if response.status_code == 200:
-        with open(filepath, "wb") as f:
+        with open(gif_filepath, "wb") as f:
             f.write(response.content)
-        print(f"Saved {filename}")
+        print(f"Saved {gif_filename} (animated preserved)")
     else:
         print(f"Failed to download {href}")
 
