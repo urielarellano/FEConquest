@@ -125,7 +125,7 @@ class Character:
 
         statbox_rows = statbox.find_all("tr")
         # set starting_class
-        self.starting_class = statbox_rows[1].find_all("a")[1].get("title")
+        self.starting_class = statbox_rows[1].find_all("a")[1].text.strip()
         if self.name == "Corrin":
             self.starting_class = "Nohr Princess"
         if self.name == "Leo":
