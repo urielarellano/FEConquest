@@ -201,6 +201,10 @@ class Character:
             td = tr.find("td", string=self.name)
             if self.name == 'Corrin':
                 td = tr.find('td', string='Avatar')
+            if self.name == 'Kana M':
+                td = tr.find('td', string='Kana')
+            if self.name == 'Kana F':
+                td = tr.find('td', string='Kana')
             if td:
                 for i in range(8):
                     tds = tr.find_all('td')
